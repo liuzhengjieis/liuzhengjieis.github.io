@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://liuzhengjieis.github.io/</id>
-    <title>工作室</title>
-    <updated>2019-06-16T12:36:07.269Z</updated>
+    <title>学习，生活</title>
+    <updated>2019-06-16T12:54:55.046Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://liuzhengjieis.github.io/"/>
     <link rel="self" href="https://liuzhengjieis.github.io//atom.xml"/>
     <subtitle>温故而知新</subtitle>
     <logo>https://liuzhengjieis.github.io//images/avatar.png</logo>
     <icon>https://liuzhengjieis.github.io//favicon.ico</icon>
-    <rights>All rights reserved 2019, 工作室</rights>
+    <rights>All rights reserved 2019, 学习，生活</rights>
     <entry>
         <title type="html"><![CDATA[Hello Gridea]]></title>
         <id>https://liuzhengjieis.github.io//post/hello-gridea</id>
