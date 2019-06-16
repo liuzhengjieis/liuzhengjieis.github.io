@@ -1,9 +1,9 @@
 <html>
   <head>
-  <meta charset="utf-8" />
+    <meta charset="utf-8" />
 <meta name="description" content="" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>学习，生活</title>
+<title>学习的烦恼 | 学习，生活</title>
 <link rel="shortcut icon" href="https://liuzhengjieis.github.io//favicon.ico?v=1560692879679">
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
@@ -71,9 +71,54 @@
 </div>
 
 
-        <div class="tags-container">
-          
+        <div class="post-detail">
+          <article class="post">
+            <h2 class="post-title">
+              学习的烦恼
+            </h2>
+            <div class="post-info">
+              <time class="post-time">
+                · 2019-06-16 ·
+              </time>
+              
+            </div>
+            
+            <div class="post-content">
+              <p>学习中遇到了许多烦恼</p>
+
+            </div>
+          </article>
         </div>
+
+        
+
+        
+          
+            <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+<script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+
+<div id="gitalk-container"></div>
+
+<script>
+
+  var gitalk = new Gitalk({
+    clientID: '9c75ed5b3390948880b5',
+    clientSecret: '139f712e6194ff7a1c6f4f0e41ed51acea35b3d4',
+    repo: 'liuzhengjieis/liuzhengjieis.github.io',
+    owner: 'liuzhengjieis',
+    admin: ['liuzhengjieis'],
+    id: (location.pathname).substring(0, 49),      // Ensure uniqueness and length less than 50
+    distractionFreeMode: false  // Facebook-like distraction free mode
+  })
+
+  gitalk.render('gitalk-container')
+
+</script>
+
+          
+
+          
+        
 
         <div class="site-footer">
   Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | 
