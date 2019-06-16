@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://liuzhengjieis.github.io/</id>
     <title>学习，生活</title>
-    <updated>2019-06-16T14:02:06.131Z</updated>
+    <updated>2019-06-16T14:08:09.745Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://liuzhengjieis.github.io/"/>
     <link rel="self" href="https://liuzhengjieis.github.io//atom.xml"/>
@@ -11,12 +11,12 @@
     <icon>https://liuzhengjieis.github.io//favicon.ico</icon>
     <rights>All rights reserved 2019, 学习，生活</rights>
     <entry>
-        <title type="html"><![CDATA[学习的烦恼]]></title>
+        <title type="html"><![CDATA[学习与生活的点点滴滴]]></title>
         <id>https://liuzhengjieis.github.io//post/about</id>
         <link href="https://liuzhengjieis.github.io//post/about">
         </link>
         <updated>2019-06-16T13:47:18.000Z</updated>
-        <content type="html"><![CDATA[<p>学习中遇到了许多烦恼</p>
+        <content type="html"><![CDATA[<p>我将在这里记录我生活</p>
 ]]></content>
     </entry>
 </feed>
