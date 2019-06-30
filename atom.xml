@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://liuzhengjieis.github.io/</id>
     <title>学习，生活手记</title>
-    <updated>2019-06-30T09:14:59.017Z</updated>
+    <updated>2019-06-30T09:24:47.368Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://liuzhengjieis.github.io/"/>
     <link rel="self" href="https://liuzhengjieis.github.io//atom.xml"/>
@@ -17,31 +17,35 @@
         </link>
         <updated>2019-06-30T08:52:45.000Z</updated>
         <content type="html"><![CDATA[<p><strong>单复数形式相同的名词：</strong></p>
-<p>trousers（裤子）
-chinese、japanese
-police（警察）
-cattle（牛）
-deer（鹿）
-sheep（羊）
-fish（有时可以用作复数，说明鱼的种类）
-people（有时可以用复数，表示种族）
-means（方式方法）
-clothes（衣服）
-scissors（剪子）
-scales（天平）
-glasses（眼镜）</p>
+<ul>
+<li>trousers（裤子）</li>
+<li>chinese、japanese</li>
+<li>police（警察）</li>
+<li>cattle（牛）</li>
+<li>deer（鹿）</li>
+<li>sheep（羊）</li>
+<li>fish（有时可以用作复数，说明鱼的种类）</li>
+<li>people（有时可以用复数，表示种族）</li>
+<li>means（方式方法）</li>
+<li>clothes（衣服）</li>
+<li>scissors（剪子）</li>
+<li>scales（天平）</li>
+<li>glasses（眼镜）</li>
+</ul>
 <p><strong>改变单数名词中的元音字母：</strong></p>
-<p>foot-feet  腿
-mouse-mice   嘴巴
-goose-geese  鹅
-thesis-theses 论文 命题
-tooth-teeth 牙齿
-basis-bases  基础的
-man-men 男人 人
-analysis-analyses  分析
-woman-women  女人
-crisis-crises  危机
-stratum-strata 组织</p>
+<ul>
+<li>foot-feet  腿</li>
+<li>mouse-mice   嘴巴</li>
+<li>goose-geese  鹅</li>
+<li>thesis-theses 论文 命题</li>
+<li>tooth-teeth 牙齿</li>
+<li>basis-bases  基础的</li>
+<li>man-men 男人 人</li>
+<li>analysis-analyses  分析</li>
+<li>woman-women  女人</li>
+<li>crisis-crises  危机</li>
+<li>stratum-strata 组织</li>
+</ul>
 ]]></content>
     </entry>
 </feed>
