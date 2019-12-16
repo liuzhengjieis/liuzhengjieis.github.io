@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://liuzhengjieis.github.io/</id>
     <title>学习，生活手记</title>
-    <updated>2019-12-16T15:34:29.146Z</updated>
+    <updated>2019-12-16T17:32:37.969Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://liuzhengjieis.github.io/"/>
     <link rel="self" href="https://liuzhengjieis.github.io//atom.xml"/>
@@ -11,21 +11,21 @@
     <icon>https://liuzhengjieis.github.io//favicon.ico</icon>
     <rights>All rights reserved 2019, 学习，生活手记</rights>
     <entry>
-        <title type="html"><![CDATA[毛泽东思想的内容和历史地位]]></title>
+        <title type="html"><![CDATA[【毛概 · 毛思想】毛泽东思想的内容和历史地位]]></title>
         <id>https://liuzhengjieis.github.io//post/mao-ze-dong-si-xiang-de-nei-rong-he-li-shi-di-wei</id>
         <link href="https://liuzhengjieis.github.io//post/mao-ze-dong-si-xiang-de-nei-rong-he-li-shi-di-wei">
         </link>
         <updated>2019-12-16T15:01:36.000Z</updated>
     </entry>
     <entry>
-        <title type="html"><![CDATA[毛泽东思想的形成]]></title>
+        <title type="html"><![CDATA[【毛概 · 毛思想】毛泽东思想的形成]]></title>
         <id>https://liuzhengjieis.github.io//post/mao-ze-dong-si-xiang-de-xing-cheng</id>
         <link href="https://liuzhengjieis.github.io//post/mao-ze-dong-si-xiang-de-xing-cheng">
         </link>
         <updated>2019-12-16T12:24:17.000Z</updated>
     </entry>
     <entry>
-        <title type="html"><![CDATA[艺术总论]]></title>
+        <title type="html"><![CDATA[【艺术概论】上篇 艺术总论]]></title>
         <id>https://liuzhengjieis.github.io//post/yishugailun</id>
         <link href="https://liuzhengjieis.github.io//post/yishugailun">
         </link>
