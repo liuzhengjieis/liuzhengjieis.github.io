@@ -2,11 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://liuzhengjieis.github.io/</id>
     <title>学习，生活手记</title>
-    <updated>2019-12-16T08:39:02.320Z</updated>
+    <updated>2019-12-16T09:42:56.647Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://liuzhengjieis.github.io/"/>
     <link rel="self" href="https://liuzhengjieis.github.io//atom.xml"/>
-    <subtitle>温故而知新</subtitle>
+    <subtitle>🙋‍♂️欢迎来到我的个人空间</subtitle>
     <logo>https://liuzhengjieis.github.io//images/avatar.png</logo>
     <icon>https://liuzhengjieis.github.io//favicon.ico</icon>
     <rights>All rights reserved 2019, 学习，生活手记</rights>
@@ -16,19 +16,6 @@
         <link href="https://liuzhengjieis.github.io//post/maogai">
         </link>
         <updated>2019-12-16T06:33:21.000Z</updated>
-        <content type="html"><![CDATA[<h2 id="毛泽东思想的含义"><strong>毛泽东思想的含义</strong></h2>
-<blockquote>
-<p>毛泽东思想是马克思主义中国化的第一个重大理论成果，是马克思列宁主义的中国的运用和发展，是被实践证明了的关于中国革命和建设的正确的理论原则和经验总结，是中国共产党集体智慧结晶，是党必须长期坚持的指导思想。</p>
-</blockquote>
-<h2 id="新民主主义理论的意义"><strong>新民主主义理论的意义</strong></h2>
-<blockquote>
-<p>党在探索中国革命道路的过程中，不是照搬俄国十月革命的经验，而是从中国的实际出发，开辟了引导中国革命走向胜利的正确道路，独创性地发展了马克思列宁主义。运用了马克思主义的立场，观点和方法，分析、研究和解决中国革命具体问题的光辉典范，对推进马克思主义中国化具有重要的方法论意义。</p>
-</blockquote>
-<h2 id="社会主义基本制度确立的意义"><strong>社会主义基本制度确立的意义</strong></h2>
-<blockquote>
-<p>1.<strong>是中国历史上最深刻最伟大的社会变革</strong>，为当代中国一切发展进步奠定了制度基础，也为中国特色社会主义制度的创新和发展提供了重要前提。2.<strong>是世界社会主义发展史上又一个历史性的胜利</strong>。它进一步改变了世界政治经济格局，增强了社会主义的力量，对维护世界和平产生了积极影响。3.<strong>是马克思列宁主义关于社会主义革命理论在中国的正确运用和创造性发展的结果</strong></p>
-</blockquote>
-]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[名词的单数形式变复数形式的不规则变化]]></title>
@@ -36,36 +23,5 @@
         <link href="https://liuzhengjieis.github.io//post/00001">
         </link>
         <updated>2019-06-30T08:52:45.000Z</updated>
-        <content type="html"><![CDATA[<p><strong>单复数形式相同的名词：</strong></p>
-<ul>
-<li>trousers（裤子）</li>
-<li>chinese、japanese</li>
-<li>police（警察）</li>
-<li>cattle（牛）</li>
-<li>deer（鹿）</li>
-<li>sheep（羊）</li>
-<li>fish（有时可以用作复数，说明鱼的种类）</li>
-<li>people（有时可以用复数，表示种族）</li>
-<li>means（方式方法）</li>
-<li>clothes（衣服）</li>
-<li>scissors（剪子）</li>
-<li>scales（天平）</li>
-<li>glasses（眼镜）</li>
-</ul>
-<p><strong>改变单数名词中的元音字母：</strong></p>
-<ul>
-<li>foot-feet  腿</li>
-<li>mouse-mice   嘴巴</li>
-<li>goose-geese  鹅</li>
-<li>thesis-theses 论文 命题</li>
-<li>tooth-teeth 牙齿</li>
-<li>basis-bases  基础的</li>
-<li>man-men 男人 人</li>
-<li>analysis-analyses  分析</li>
-<li>woman-women  女人</li>
-<li>crisis-crises  危机</li>
-<li>stratum-strata 组织</li>
-</ul>
-]]></content>
     </entry>
 </feed>
