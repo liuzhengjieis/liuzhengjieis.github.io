@@ -1,415 +1,373 @@
 <html>
   <head>
-      <meta charset="UTF-8"/>
-<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>学习，生活手记</title>
-<link rel="shortcut icon" href="https://liuzhengjieis.github.io//favicon.ico?v=1577871117218">
-<link rel="stylesheet" href="https://liuzhengjieis.github.io//styles/main.css">
 <meta name="description" content="🙋‍♂️欢迎来到我的个人空间" />
+<link rel="shortcut icon" href="https://liuzhengjieis.github.io//favicon.ico?v=1577871446391">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+<link href="https://cdn.remixicon.com/releases/v1.3.1/remixicon.css" rel="stylesheet">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
 
-<link rel="stylesheet" href="/media/fonts/font-awesome.css">
-<link href="//fonts.googleapis.com/css?family=Monda:300,300italic,400,400italic,700,700italic|Roboto Slab:300,300italic,400,400italic,700,700italic|Rosario:300,300italic,400,400italic,700,700italic|PT Mono:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="https://liuzhengjieis.github.io//styles/main.css">
+<link rel="alternate" type="application/atom+xml" title="学习，生活手记 - Atom Feed" href="https://liuzhengjieis.github.io//atom.xml">
 
-<script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/velocity-animate@1.5.0/velocity.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/velocity-animate@1.5.0/velocity.ui.min.js"></script>
 
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.css" integrity="sha384-zB1R0rpPzHqg7Kpt0Aljp8JPLqbXI3bhnPWROx27a9N0Ll6ZP/+DiW/UqRcLbRjq" crossorigin="anonymous">
-<script defer src="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.js" integrity="sha384-y23I5Q6l+B6vatafAwxRu/0oK/79VlbSz7Q9aiSZUvyWYIYsd+qj+o24G5ZU2zJz" crossorigin="anonymous"></script>
-<script defer src="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/contrib/auto-render.min.js" integrity="sha384-kWPLUVMOks5AQFrykwIup5lo0m3iMkkHrD0uJ4H5cjeGihAutqP0yW0J6dpFiVkI" crossorigin="anonymous"
-    onload="renderMathInElement(document.body);"></script>
+
   </head>
   <body>
-    <div class="head-top-line"></div>
-    <div class="header-box">
-      
-<header class="header">
-  <div class="blog-header" id="header">
-    <div class="site-meta">
-      <div class="nav-toggle" id="nav_toggle">
-        <div class="toggle-box">
-          <div class="line line-top"></div>
-          <div class="line line-center"></div>
-          <div class="line line-bottom"></div>
-        </div>
-      </div>
-      <div class="site-title">
-        <a href="/" class="brand">
-          <span>学习，生活手记</span>
+    <div id="app" class="main px-4 flex flex-col lg:flex-row">
+      <div id="sidebar" class="sidebar-wrapper lg:static lg:w-1/4">
+  <div class="lg:sticky top-0">
+    <div class="sidebar-content">
+      <div class="flex lg:block p-4 lg:px-0 items-center fixed lg:static lg:block top-0 right-0 left-0 bg-white z-50">
+        <i class="remixicon-menu-2-line lg:mt-4 text-2xl cursor-pointer animated fadeIn" onclick="openMenu()"></i>
+        <a href="https://liuzhengjieis.github.io/">
+          <img class="animated fadeInLeft avatar rounded-lg mx-4 lg:mt-32 lg:mx-0 mt-0 lg:w-24 lg:h-24 w-12 w-12" src="https://liuzhengjieis.github.io//images/avatar.png?v=1577871446391" alt="">
         </a>
+        <h1 class="animated fadeInLeft lg:text-4xl font-extrabold lg:mt-8 mt-0 text-xl" style="animation-delay: 0.2s">学习，生活手记</h1>
       </div>
-      <p class="subtitle">Quick notes</p>
-    </div>
-    <nav class="site-nav" id="site_nav">
-      <ul id="nav_ul">
-        
-          <li class="nav-item ">
+      
+        <div class="animated fadeInLeft" style="animation-delay: 0.4s">
+          <p class="my-4 text-gray-600 font-light hidden lg:block">
+            🙋‍♂️欢迎来到我的个人空间
+          </p>
+          <div class="animated fadeInLeft social-container hidden lg:block" style="animation-delay: 0.6s">
             
-              <a href="https://liuzhengjieis.github.io/">
-                <i class="fa fa-"></i> 首页
-              </a>
+              
             
-          </li>
-        
-          <li class="nav-item ">
+              
             
-              <a href="https://liuzhengjieis.github.io//tags">
-                <i class="fa fa-"></i> 分类
-              </a>
+              
             
-          </li>
-        
-          <li class="nav-item ">
+              
             
-              <a href="https://liuzhengjieis.github.io//post/about/">
-                <i class="fa fa-"></i> 关于
-              </a>
+              
             
-          </li>
-        
-        <li class="nav-item">
-          <a>
-            <i class="fa fa-search"></i> 搜索
-          </a>
-        </li>
-      </ul>
-    </nav>
-  </div>
-</header>
-<script type="text/javascript"> 
- 
-  let showNav = true;
-
-  let navToggle = document.querySelector('#nav_toggle'),
-  siteNav = document.querySelector('#site_nav');
-  
-  function navClick() {
-    let sideBar = document.querySelector('.sidebar');
-    let navUl = document.querySelector('#nav_ul');
-    navToggle.classList.toggle('nav-toggle-active');
-    siteNav.classList.toggle('nav-menu-active');
-    if (siteNav.classList.contains('nav-menu-active')) {
-      siteNav.style = "height: " + (navUl.children.length * 42) +"px !important";
-    } else {
-      siteNav.style = "";
-    }
-  }
-
-  navToggle.addEventListener('click',navClick);  
-</script>
-    </div>
-    <div class="main-continer">
-      <div class="section-layout">
-        <div class="section-layout-wrapper">
-          <div class="sidebar">
-    <div class="sidebar-wrapper">
-  <div class="sidebar-item">
-    <img class="site-author-image" src="https://liuzhengjieis.github.io//images/avatar.png"/>
-    <p class="site-author-name">学习，生活手记</p>
-    <p class="site-description">🙋‍♂️欢迎来到我的个人空间</p>
-  </div>
-  <div class="sidebar-item side-item-stat">
-    <div class="sidebar-item-box">
-      <a href="/archives/">
-        
-        <span class="site-item-stat-count">10</span>
-        <span class="site-item-stat-name">文章</span>
-      </a>
-    </div>
-    <div class="sidebar-item-box">
-      <a href="">
-        <span class="site-item-stat-count">5</span>
-        <span class="site-item-stat-name">分类</span>
-      </a>
-    </div>
-    <div class="sidebar-item-box">
-      <a href="/tags/">
-        <span class="site-item-stat-count">5</span>
-        <span class="site-item-stat-name">标签</span>
-      </a>
-    </div>
-  </div>
-  <div class="sidebar-item">
-    <span class="site-item-rss">
-        <i class="fa fa-rss"></i>
-        <a href="https://liuzhengjieis.github.io//atom.xml" target="_blank">RSS</a>
-    </span>
-  </div>
-  <div class="sidebar-item sidebar-item-social">
-    <div class="social-item">
-      <a href="https://www.github.com/hsxyhao">
-        <i class="fa fa-github"></i> GitHub
-      </a>
-      <a href="">
-        <i class="fa fa-twitter"></i> Twitter
-      </a>
-    </div>
-    <div class="social-item">
-      <a href="">
-        <i class="fa fa-globe"></i> 豆瓣
-      </a>
-      <a href="">
-        <i class="fa fa-globe"></i> 知乎
-      </a>
-    </div>
-  </div>
-</div>
-</div>
-          <div class="section-box">
-            <section class="section posts-expand">
-              <div class="tag-timeline-box">
-  <div class="tag-timeline-wrapper">
-    <div class="tag-timeline-title">
-      <h2>
-        学习
-        <small>标签</small>
-      </h2>
-    </div>
-    
-      
-        
-      
-        
-          <a href="https://liuzhengjieis.github.io/post/mao-gai-deng-xiao-ping-li-lun-deng-xiao-ping-li-lun-de-li-shi-di-wei">
-            <div class="motion-warpper">
-              <div class="tag-post-node">
-                <h1>
-                  12月29日
-                  <small>【毛概 · 邓小平理论】邓小平理论的历史地位</small>
-                </h1>
-              </div>  
-            </div>
-          </a>
-        
-      
-    
-      
-        
-      
-        
-          <a href="https://liuzhengjieis.github.io/post/xi-fang-xian-dai-she-ji-shi">
-            <div class="motion-warpper">
-              <div class="tag-post-node">
-                <h1>
-                  12月26日
-                  <small>西方现代设计史</small>
-                </h1>
-              </div>  
-            </div>
-          </a>
-        
-      
-    
-      
-        
-      
-        
-          <a href="https://liuzhengjieis.github.io/post/mao-gai-deng-xiao-ping-li-lun-deng-xiao-ping-li-lun-hui-da-de-ji-ben-wen-ti-he-zhu-yao-nei-rong">
-            <div class="motion-warpper">
-              <div class="tag-post-node">
-                <h1>
-                  12月24日
-                  <small>【毛概 · 邓小平理论】邓小平理论回答的基本问题和主要内容</small>
-                </h1>
-              </div>  
-            </div>
-          </a>
-        
-      
-    
-      
-        
-      
-        
-          <a href="https://liuzhengjieis.github.io/post/ming-ci-shi-tai">
-            <div class="motion-warpper">
-              <div class="tag-post-node">
-                <h1>
-                  12月23日
-                  <small>【动词】时态</small>
-                </h1>
-              </div>  
-            </div>
-          </a>
-        
-      
-    
-      
-        
-      
-        
-          <a href="https://liuzhengjieis.github.io/post/dong-ci-ban-zhu-dong-ci">
-            <div class="motion-warpper">
-              <div class="tag-post-node">
-                <h1>
-                  12月22日
-                  <small>【动词】半助动词</small>
-                </h1>
-              </div>  
-            </div>
-          </a>
-        
-      
-    
-      
-        
-      
-        
-          <a href="https://liuzhengjieis.github.io/post/mao-ze-dong-si-xiang-de-nei-rong-he-li-shi-di-wei">
-            <div class="motion-warpper">
-              <div class="tag-post-node">
-                <h1>
-                  12月16日
-                  <small>【毛概 · 毛思想】毛泽东思想的内容和历史地位</small>
-                </h1>
-              </div>  
-            </div>
-          </a>
-        
-      
-    
-      
-        
-      
-        
-          <a href="https://liuzhengjieis.github.io/post/mao-ze-dong-si-xiang-de-xing-cheng">
-            <div class="motion-warpper">
-              <div class="tag-post-node">
-                <h1>
-                  12月16日
-                  <small>【毛概 · 毛思想】毛泽东思想的形成</small>
-                </h1>
-              </div>  
-            </div>
-          </a>
-        
-      
-    
-      
-        
-      
-        
-          <a href="https://liuzhengjieis.github.io/post/yishugailun">
-            <div class="motion-warpper">
-              <div class="tag-post-node">
-                <h1>
-                  12月16日
-                  <small>【艺术概论】上篇 艺术总论</small>
-                </h1>
-              </div>  
-            </div>
-          </a>
-        
-      
-    
-      
-        
-      
-        
-          <a href="https://liuzhengjieis.github.io/post/maogai">
-            <div class="motion-warpper">
-              <div class="tag-post-node">
-                <h1>
-                  12月16日
-                  <small>《毛概》关于每个理论的总结一览</small>
-                </h1>
-              </div>  
-            </div>
-          </a>
-        
-      
-    
-      
-        
-      
-        
-          <a href="https://liuzhengjieis.github.io/post/00001">
-            <div class="motion-warpper">
-              <div class="tag-post-node">
-                <h1>
-                  06月30日
-                  <small>【词汇】名词的单数形式变复数形式的不规则变化</small>
-                </h1>
-              </div>  
-            </div>
-          </a>
-        
-      
-    
-      
-    
-  </div>
-</div>
-            </section>
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
           </div>
         </div>
-      </div>
-      <div class="footer-box">
-  <footer class="footer">
-    <div class="copyright">
-      © 2019-2020 <i class="fa fa-heart"></i> HsxyHao
+      
     </div>
-    <div class="poweredby">
-      <div class="power-left">Power By<a href="https://github.com/hsxyhao"> HsxyHao</a></div>
-      <div>Copy<a href="https://github.com/iissnan/hexo-theme-next"> Hexo Next Theme</a></div>
-    </div>
-  </footer>
-  <div class="back-to-top" id="back_to_top">
-    <i class="fa fa-arrow-up"></i>
-    <span class="scrollpercent">
-      <span id="back_to_top_text">100</span>%
-    </span>
   </div>
 </div>
 
+<div class="menu-container">
+  <i class="remixicon-arrow-left-line text-2xl cursor-pointer animated fadeIn close-menu-btn" onclick="closeMenu()"></i>
+  <div>
+    
+      
+        <a href="https://liuzhengjieis.github.io/" class="menu" style="animation-delay: 0s">
+          首页
+        </a>
+      
+    
+      
+        <a href="https://liuzhengjieis.github.io//tags" class="menu" style="animation-delay: 0.2s">
+          分类
+        </a>
+      
+    
+      
+        <a href="https://liuzhengjieis.github.io//post/about/" class="menu" style="animation-delay: 0.4s">
+          关于
+        </a>
+      
+    
+  </div>
+  <div class="site-footer">
+    <div class="py-4 text-gray-700">Powered by <a href="https://baidu.com" target="_blank">liuzhengjie</a></div>
+    <a class="rss" href="https://liuzhengjieis.github.io//atom.xml" target="_blank">RSS</a>
+  </div>
+</div>
+<div class="mask" onclick="closeMenu()">
+</div>
+      <div class="content-wrapper py-32 lg:p-8 lg:w-3/4">
+        <h2 class="text-lg text-gray-700 mb-8">
+          <i class="remixicon-bookmark-line"></i> 学习
+        </h2>
+        
+  <section class="post-item md:flex pb-12 animated fadeIn" :style="{ 'animation-delay': `${0 * 0.2}s` }">
+    
+      <a href="https://liuzhengjieis.github.io/post/mao-gai-deng-xiao-ping-li-lun-deng-xiao-ping-li-lun-de-li-shi-di-wei" class="feature-image-wrapper bg-gray-100 rounded-lg flex-shrink-0 mr-8 w-full h-56 h-32 md:w-56 md:h-40">
+        <div class="post-feature-image lazy w-full h-56 h-32 md:w-56 md:h-40" data-bg="'http://baidu.tokyo/wp-content/uploads/2018/12/nyns-hqhtqsq1571020.jpg'">
+        </div>
+      </a>
+    
+    <div class="content">
+      <a href="https://liuzhengjieis.github.io/post/mao-gai-deng-xiao-ping-li-lun-deng-xiao-ping-li-lun-de-li-shi-di-wei">
+        <h2 class="post-title text-xl font-extrabold mt-5 md:mt-0">【毛概 · 邓小平理论】邓小平理论的历史地位</h2>
+      </a>
+      <div class="post-abstract text-gray-700 font-light my-4">
+        
+      </div>
+      <div class="text-gray-400 text-sm font-light">2019年12月29日 / 3 min read</div>
+    </div>
+  </section>
+
+  <section class="post-item md:flex pb-12 animated fadeIn" :style="{ 'animation-delay': `${1 * 0.2}s` }">
+    
+      <a href="https://liuzhengjieis.github.io/post/xi-fang-xian-dai-she-ji-shi" class="feature-image-wrapper bg-gray-100 rounded-lg flex-shrink-0 mr-8 w-full h-56 h-32 md:w-56 md:h-40">
+        <div class="post-feature-image lazy w-full h-56 h-32 md:w-56 md:h-40" data-bg="'http://file01.16sucai.com/d/file/2013/1014/16e5b26a45259fc3d5f9e91eb3cf9471.jpg'">
+        </div>
+      </a>
+    
+    <div class="content">
+      <a href="https://liuzhengjieis.github.io/post/xi-fang-xian-dai-she-ji-shi">
+        <h2 class="post-title text-xl font-extrabold mt-5 md:mt-0">西方现代设计史</h2>
+      </a>
+      <div class="post-abstract text-gray-700 font-light my-4">
+        
+      </div>
+      <div class="text-gray-400 text-sm font-light">2019年12月26日 / 13 min read</div>
+    </div>
+  </section>
+
+  <section class="post-item md:flex pb-12 animated fadeIn" :style="{ 'animation-delay': `${2 * 0.2}s` }">
+    
+      <a href="https://liuzhengjieis.github.io/post/mao-gai-deng-xiao-ping-li-lun-deng-xiao-ping-li-lun-hui-da-de-ji-ben-wen-ti-he-zhu-yao-nei-rong" class="feature-image-wrapper bg-gray-100 rounded-lg flex-shrink-0 mr-8 w-full h-56 h-32 md:w-56 md:h-40">
+        <div class="post-feature-image lazy w-full h-56 h-32 md:w-56 md:h-40" data-bg="'https://ichef.bbci.co.uk/news/624/cpsprodpb/DF18/production/_104721175_gettyimages-515575018.jpg'">
+        </div>
+      </a>
+    
+    <div class="content">
+      <a href="https://liuzhengjieis.github.io/post/mao-gai-deng-xiao-ping-li-lun-deng-xiao-ping-li-lun-hui-da-de-ji-ben-wen-ti-he-zhu-yao-nei-rong">
+        <h2 class="post-title text-xl font-extrabold mt-5 md:mt-0">【毛概 · 邓小平理论】邓小平理论回答的基本问题和主要内容</h2>
+      </a>
+      <div class="post-abstract text-gray-700 font-light my-4">
+        
+      </div>
+      <div class="text-gray-400 text-sm font-light">2019年12月24日 / 14 min read</div>
+    </div>
+  </section>
+
+  <section class="post-item md:flex pb-12 animated fadeIn" :style="{ 'animation-delay': `${3 * 0.2}s` }">
+    
+      <a href="https://liuzhengjieis.github.io/post/ming-ci-shi-tai" class="feature-image-wrapper bg-gray-100 rounded-lg flex-shrink-0 mr-8 w-full h-56 h-32 md:w-56 md:h-40">
+        <div class="post-feature-image lazy w-full h-56 h-32 md:w-56 md:h-40" data-bg="'https://liuzhengjieis.github.io//post-images/ming-ci-shi-tai.PNG'">
+        </div>
+      </a>
+    
+    <div class="content">
+      <a href="https://liuzhengjieis.github.io/post/ming-ci-shi-tai">
+        <h2 class="post-title text-xl font-extrabold mt-5 md:mt-0">【动词】时态</h2>
+      </a>
+      <div class="post-abstract text-gray-700 font-light my-4">
+        
+      </div>
+      <div class="text-gray-400 text-sm font-light">2019年12月23日 / 3 min read</div>
+    </div>
+  </section>
+
+  <section class="post-item md:flex pb-12 animated fadeIn" :style="{ 'animation-delay': `${4 * 0.2}s` }">
+    
+      <a href="https://liuzhengjieis.github.io/post/dong-ci-ban-zhu-dong-ci" class="feature-image-wrapper bg-gray-100 rounded-lg flex-shrink-0 mr-8 w-full h-56 h-32 md:w-56 md:h-40">
+        <div class="post-feature-image lazy w-full h-56 h-32 md:w-56 md:h-40" data-bg="'https://liuzhengjieis.github.io//post-images/dong-ci-ban-zhu-dong-ci.PNG'">
+        </div>
+      </a>
+    
+    <div class="content">
+      <a href="https://liuzhengjieis.github.io/post/dong-ci-ban-zhu-dong-ci">
+        <h2 class="post-title text-xl font-extrabold mt-5 md:mt-0">【动词】半助动词</h2>
+      </a>
+      <div class="post-abstract text-gray-700 font-light my-4">
+        
+      </div>
+      <div class="text-gray-400 text-sm font-light">2019年12月22日 / 3 min read</div>
+    </div>
+  </section>
+
+  <section class="post-item md:flex pb-12 animated fadeIn" :style="{ 'animation-delay': `${5 * 0.2}s` }">
+    
+      <a href="https://liuzhengjieis.github.io/post/mao-ze-dong-si-xiang-de-nei-rong-he-li-shi-di-wei" class="feature-image-wrapper bg-gray-100 rounded-lg flex-shrink-0 mr-8 w-full h-56 h-32 md:w-56 md:h-40">
+        <div class="post-feature-image lazy w-full h-56 h-32 md:w-56 md:h-40" data-bg="'http://y3.ifengimg.com/a/2014_16/33d3df7c7461c37.jpg'">
+        </div>
+      </a>
+    
+    <div class="content">
+      <a href="https://liuzhengjieis.github.io/post/mao-ze-dong-si-xiang-de-nei-rong-he-li-shi-di-wei">
+        <h2 class="post-title text-xl font-extrabold mt-5 md:mt-0">【毛概 · 毛思想】毛泽东思想的内容和历史地位</h2>
+      </a>
+      <div class="post-abstract text-gray-700 font-light my-4">
+        
+      </div>
+      <div class="text-gray-400 text-sm font-light">2019年12月16日 / 9 min read</div>
+    </div>
+  </section>
+
+  <section class="post-item md:flex pb-12 animated fadeIn" :style="{ 'animation-delay': `${6 * 0.2}s` }">
+    
+    <div class="content">
+      <a href="https://liuzhengjieis.github.io/post/mao-ze-dong-si-xiang-de-xing-cheng">
+        <h2 class="post-title text-xl font-extrabold mt-5 md:mt-0">【毛概 · 毛思想】毛泽东思想的形成</h2>
+      </a>
+      <div class="post-abstract text-gray-700 font-light my-4">
+        
+      </div>
+      <div class="text-gray-400 text-sm font-light">2019年12月16日 / 2 min read</div>
+    </div>
+  </section>
+
+  <section class="post-item md:flex pb-12 animated fadeIn" :style="{ 'animation-delay': `${7 * 0.2}s` }">
+    
+      <a href="https://liuzhengjieis.github.io/post/yishugailun" class="feature-image-wrapper bg-gray-100 rounded-lg flex-shrink-0 mr-8 w-full h-56 h-32 md:w-56 md:h-40">
+        <div class="post-feature-image lazy w-full h-56 h-32 md:w-56 md:h-40" data-bg="'https://liuzhengjieis.github.io//post-images/yishugailun.PNG'">
+        </div>
+      </a>
+    
+    <div class="content">
+      <a href="https://liuzhengjieis.github.io/post/yishugailun">
+        <h2 class="post-title text-xl font-extrabold mt-5 md:mt-0">【艺术概论】上篇 艺术总论</h2>
+      </a>
+      <div class="post-abstract text-gray-700 font-light my-4">
+        
+      </div>
+      <div class="text-gray-400 text-sm font-light">2019年12月16日 / 3 min read</div>
+    </div>
+  </section>
+
+  <section class="post-item md:flex pb-12 animated fadeIn" :style="{ 'animation-delay': `${8 * 0.2}s` }">
+    
+    <div class="content">
+      <a href="https://liuzhengjieis.github.io/post/maogai">
+        <h2 class="post-title text-xl font-extrabold mt-5 md:mt-0">《毛概》关于每个理论的总结一览</h2>
+      </a>
+      <div class="post-abstract text-gray-700 font-light my-4">
+        
+      </div>
+      <div class="text-gray-400 text-sm font-light">2019年12月16日 / 3 min read</div>
+    </div>
+  </section>
+
+  <section class="post-item md:flex pb-12 animated fadeIn" :style="{ 'animation-delay': `${9 * 0.2}s` }">
+    
+    <div class="content">
+      <a href="https://liuzhengjieis.github.io/post/00001">
+        <h2 class="post-title text-xl font-extrabold mt-5 md:mt-0">【词汇】名词的单数形式变复数形式的不规则变化</h2>
+      </a>
+      <div class="post-abstract text-gray-700 font-light my-4">
+        
+      </div>
+      <div class="text-gray-400 text-sm font-light">2019年06月30日 / 1 min read</div>
+    </div>
+  </section>
+
+        <div class="pagination-container animated fadeIn">
+  
+  
+</div>
+
+      </div>
+    </div>
+
+    <script src="https://liuzhengjieis.github.io//media/prism.js"></script>  
 <script>
 
-  let body = document.body;
+Prism.highlightAll()
 
-  let back2Top = document.querySelector('#back_to_top'),
-  back2TopText = document.querySelector('#back_to_top_text');
+let mainNavLinks = document.querySelectorAll(".markdownIt-TOC a");
 
-  function scrollAnimation(currentY, targetY) {
-   
-    let needScrollTop = targetY - currentY
-    let _currentY = currentY
-    setTimeout(() => {
-      const dist = Math.ceil(needScrollTop / 10)
-      _currentY += dist
-      window.scrollTo(_currentY, currentY)
-      if (needScrollTop > 10 || needScrollTop < -10) {
-        scrollAnimation(_currentY, targetY)
+// This should probably be throttled.
+// Especially because it triggers during smooth scrolling.
+// https://lodash.com/docs/4.17.10#throttle
+// You could do like...
+// window.addEventListener("scroll", () => {
+//    _.throttle(doThatStuff, 100);
+// });
+// Only not doing it here to keep this Pen dependency-free.
+
+window.addEventListener("scroll", event => {
+  let fromTop = window.scrollY;
+
+  mainNavLinks.forEach((link, index) => {
+    let section = document.getElementById(decodeURI(link.hash).substring(1));
+    let nextSection = null
+    if (mainNavLinks[index + 1]) {
+      nextSection = document.getElementById(decodeURI(mainNavLinks[index + 1].hash).substring(1));
+    }
+    if (section.offsetTop <= fromTop) {
+      if (nextSection) {
+        if (nextSection.offsetTop > fromTop) {
+          link.classList.add("current");
+        } else {
+          link.classList.remove("current");    
+        }
       } else {
-        window.scrollTo(_currentY, targetY)
+        link.classList.add("current");
       }
-    }, 1)
+    } else {
+      link.classList.remove("current");
+    }
+  });
+});
+
+
+document.addEventListener("DOMContentLoaded", function() {
+  var lazyImages = [].slice.call(document.querySelectorAll(".post-feature-image.lazy"));
+
+  if ("IntersectionObserver" in window) {
+    let lazyImageObserver = new IntersectionObserver(function(entries, observer) {
+      entries.forEach(function(entry) {
+        if (entry.isIntersecting) {
+          let lazyImage = entry.target
+          lazyImage.style.backgroundImage = `url(${lazyImage.dataset.bg})`
+          lazyImage.classList.remove("lazy")
+          lazyImageObserver.unobserve(lazyImage)
+        }
+      });
+    });
+
+    lazyImages.forEach(function(lazyImage) {
+      lazyImageObserver.observe(lazyImage)
+    })
+  } else {
+    // Possibly fall back to a more compatible method here
   }
+});
 
-  back2Top.addEventListener("click", function(e) {
-    scrollAnimation(body.scrollTop, 0);
-    e.stopPropagation();
-    return false;
-  });
-  
-  window.addEventListener('scroll', function(e) {
-    let percent = body.scrollTop / (body.scrollHeight - body.clientHeight) * 100;
-    if (percent > 1 && !back2Top.classList.contains('back-top-active')) {
-      back2Top.classList.add('back-top-active');
-    }
-    if (percent == 0) {
-      back2Top.classList.remove('back-top-active');
-    }
-    back2TopText.textContent = Math.floor(percent);
-  });
+const menuContainer = document.querySelector('.menu-container')
+const menus = document.querySelectorAll('.menu-container .menu')
+const mask = document.querySelector('.mask')
+const contentWrapper = document.querySelector('.content-wrapper')
+const latestArticle = document.querySelector('.latest-article')
+const readMore = document.querySelector('.read-more')
+const indexPage = document.querySelector('.index-page')
 
-  // 动态调整站点概览高度
-  let sideBar = document.querySelector('.sidebar');
-  let navUl = document.querySelector('#nav_ul');
-  sideBar.style = 'margin-top:' + (navUl.children.length * 42 + 162) + 'px; opacity: 1;';
-  // 代码高亮
-  hljs.initHighlightingOnLoad();
+const isHome = location.pathname === '/'
+if (latestArticle) {
+  latestArticle.style.display = isHome ? 'block' : 'none'
+  readMore.style.display = isHome ? 'block' : 'none'
+  indexPage.style.display = isHome ? 'none' : 'block'
+}
+
+const openMenu = () => {
+  menuContainer.classList.add('open')
+  menus.forEach(menu => {
+    menu.classList.add('animated', 'fadeInLeft')
+  })
+  mask.classList.add('open')
+  contentWrapper.classList.add('is-second')
+}
+
+const closeMenu = () => {
+  menuContainer.classList.remove('open')
+  menus.forEach(menu => {
+    menu.classList.remove('animated', 'fadeInLeft')
+  })
+  mask.classList.remove('open')
+  contentWrapper.classList.remove('is-second')
+}
 </script>
-    </div>
+  
   </body>
-  <script src="/media/js/motion.js"></script>
 </html>
