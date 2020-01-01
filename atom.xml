@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://liuzhengjieis.github.io/</id>
     <title>学习，生活手记</title>
-    <updated>2020-01-01T14:39:27.091Z</updated>
+    <updated>2020-01-01T16:09:45.381Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://liuzhengjieis.github.io/"/>
     <link rel="self" href="https://liuzhengjieis.github.io/atom.xml"/>
@@ -40,6 +40,10 @@
         <link href="https://liuzhengjieis.github.io/post/mao-gai-deng-xiao-ping-li-lun-deng-xiao-ping-li-lun-hui-da-de-ji-ben-wen-ti-he-zhu-yao-nei-rong">
         </link>
         <updated>2019-12-24T07:53:21.000Z</updated>
+        <summary type="html"><![CDATA[<figure data-type="image" tabindex="1"><img src="https://ichef.bbci.co.uk/news/624/cpsprodpb/DF18/production/_104721175_gettyimages-515575018.jpg" alt="邓小平" loading="lazy"></figure>
+]]></summary>
+        <content type="html"><![CDATA[<figure data-type="image" tabindex="1"><img src="https://ichef.bbci.co.uk/news/624/cpsprodpb/DF18/production/_104721175_gettyimages-515575018.jpg" alt="邓小平" loading="lazy"></figure>
+]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[【动词】时态]]></title>
@@ -47,6 +51,20 @@
         <link href="https://liuzhengjieis.github.io/post/ming-ci-shi-tai">
         </link>
         <updated>2019-12-23T10:38:39.000Z</updated>
+        <summary type="html"><![CDATA[<p>时态可以看作是表示动作时间和状态的一种结构，由固定的助动词或分词构成。每个句子都会存在时态的表达，因为时态是英语最为常用的句子结构。</p>
+<ol>
+<li>时态可分为“时”和“态”，即时间和状态；时间为现在时、过去时、将来时。状态为一般态、进行态、完成态。</li>
+<li>一般的时态都是时间和状态构成，但也有时和时，态和态的构成，那就是：过去将来时、完成进行态。我这里把时态分为<strong>一级时态</strong>和<strong>二级时态</strong><br>
+<img src="https://liuzhengjieis.github.io//post-images/1577894947292.jpg" alt="English" loading="lazy"></li>
+</ol>
+]]></summary>
+        <content type="html"><![CDATA[<p>时态可以看作是表示动作时间和状态的一种结构，由固定的助动词或分词构成。每个句子都会存在时态的表达，因为时态是英语最为常用的句子结构。</p>
+<ol>
+<li>时态可分为“时”和“态”，即时间和状态；时间为现在时、过去时、将来时。状态为一般态、进行态、完成态。</li>
+<li>一般的时态都是时间和状态构成，但也有时和时，态和态的构成，那就是：过去将来时、完成进行态。我这里把时态分为<strong>一级时态</strong>和<strong>二级时态</strong><br>
+<img src="https://liuzhengjieis.github.io//post-images/1577894947292.jpg" alt="English" loading="lazy"></li>
+</ol>
+]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[【动词】半助动词]]></title>
@@ -61,6 +79,12 @@
         <link href="https://liuzhengjieis.github.io/post/mao-ze-dong-si-xiang-de-nei-rong-he-li-shi-di-wei">
         </link>
         <updated>2019-12-16T15:01:36.000Z</updated>
+        <summary type="html"><![CDATA[<p>毛泽东思想是马克思主义中国化的第一个重大理论成果，是马克思列宁主义在中国的运用和发展，是被实践证明了的关于中国革命和建设的正确的理论原则和经验总结，是中国共产党集体的智慧结晶，是党必须长期坚持的指导思想。<br>
+<img src="http://y3.ifengimg.com/a/2014_16/33d3df7c7461c37.jpg" alt="毛泽东" loading="lazy"></p>
+]]></summary>
+        <content type="html"><![CDATA[<p>毛泽东思想是马克思主义中国化的第一个重大理论成果，是马克思列宁主义在中国的运用和发展，是被实践证明了的关于中国革命和建设的正确的理论原则和经验总结，是中国共产党集体的智慧结晶，是党必须长期坚持的指导思想。<br>
+<img src="http://y3.ifengimg.com/a/2014_16/33d3df7c7461c37.jpg" alt="毛泽东" loading="lazy"></p>
+]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[【毛概 · 毛思想】毛泽东思想的形成]]></title>
