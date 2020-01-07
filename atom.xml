@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://liuzhengjieis.github.io/</id>
     <title>学习，生活手记</title>
-    <updated>2020-01-04T16:14:10.820Z</updated>
+    <updated>2020-01-07T11:23:24.447Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://liuzhengjieis.github.io/"/>
     <link rel="self" href="https://liuzhengjieis.github.io/atom.xml"/>
@@ -10,6 +10,21 @@
     <logo>https://liuzhengjieis.github.io/images/avatar.png</logo>
     <icon>https://liuzhengjieis.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, 学习，生活手记</rights>
+    <entry>
+        <title type="html"><![CDATA[《艺术与设计》 第一章]]></title>
+        <id>https://liuzhengjieis.github.io/post/lesslessyi-zhu-yu-she-ji-greatergreater-di-yi-zhang</id>
+        <link href="https://liuzhengjieis.github.io/post/lesslessyi-zhu-yu-she-ji-greatergreater-di-yi-zhang">
+        </link>
+        <updated>2020-01-07T11:01:21.000Z</updated>
+        <summary type="html"><![CDATA[<p>黑格尔说过：“艺术类型不过是内容和形象之间的各种不同的关系。”是的，艺术是一个错综复杂现象，既有精神性的产品，也有包括精神与物质相结合的产品，所以艺术必然会有纯艺术和实用艺术。<br>
+那么结合艺术的起源和本质，到底纯艺术或者实用艺术是如何形成和发展的呢？<br>
+<img src="https://m.therafchannel.com/www/plus/misc/images/codex-atlanticus-02.jpg" alt="" loading="lazy"></p>
+]]></summary>
+        <content type="html"><![CDATA[<p>黑格尔说过：“艺术类型不过是内容和形象之间的各种不同的关系。”是的，艺术是一个错综复杂现象，既有精神性的产品，也有包括精神与物质相结合的产品，所以艺术必然会有纯艺术和实用艺术。<br>
+那么结合艺术的起源和本质，到底纯艺术或者实用艺术是如何形成和发展的呢？<br>
+<img src="https://m.therafchannel.com/www/plus/misc/images/codex-atlanticus-02.jpg" alt="" loading="lazy"></p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[文艺复兴时期的建筑艺术]]></title>
         <id>https://liuzhengjieis.github.io/post/wengyifuxingjianzhu</id>
@@ -21,6 +36,19 @@
 ]]></summary>
         <content type="html"><![CDATA[<p><strong>文艺复兴建筑</strong>是公元14识记在意大利发生的文艺复兴时期兴起的建筑风格，是基于对神权之上的批判和对人文主义的肯定。在这一时期出现了建筑师这个职业，并且通过继承罗马的古典比例美来塑造古典社会的协调秩序。所以文艺复兴建筑通常是具有秩序和比例的美感，拥有严谨的立面图和平面结构的建筑。<br>
 <img src="https://liuzhengjieis.github.io//post-images/1578153871543.PNG" alt="来自http://www.archidict.com/en/" loading="lazy"></p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[【毛概】“三个代表”重要思想]]></title>
+        <id>https://liuzhengjieis.github.io/post/mao-gai-san-ge-dai-biao-chong-yao-si-xiang</id>
+        <link href="https://liuzhengjieis.github.io/post/mao-gai-san-ge-dai-biao-chong-yao-si-xiang">
+        </link>
+        <updated>2020-01-02T15:40:06.000Z</updated>
+        <summary type="html"><![CDATA[<p>“三个代表”重要思想</p>
+<p>“三个代表”重要思想是中国特色社会主义理论中的其中一个理论</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>“三个代表”重要思想</p>
+<p>“三个代表”重要思想是中国特色社会主义理论中的其中一个理论</p>
 ]]></content>
     </entry>
     <entry>
@@ -131,19 +159,5 @@ I am afraid to say what he thinks.</p>
         <content type="html"><![CDATA[<p>毛泽东思想是马克思主义中国化的第一个重大理论成果，是马克思列宁主义在中国的运用和发展，是被实践证明了的关于中国革命和建设的正确的理论原则和经验总结，是中国共产党集体的智慧结晶，是党必须长期坚持的指导思想。<br>
 <img src="http://y3.ifengimg.com/a/2014_16/33d3df7c7461c37.jpg" alt="毛泽东" loading="lazy"></p>
 ]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[【毛概 · 毛思想】毛泽东思想的形成]]></title>
-        <id>https://liuzhengjieis.github.io/post/mao-ze-dong-si-xiang-de-xing-cheng</id>
-        <link href="https://liuzhengjieis.github.io/post/mao-ze-dong-si-xiang-de-xing-cheng">
-        </link>
-        <updated>2019-12-16T12:24:17.000Z</updated>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[【艺术概论】上篇 艺术总论]]></title>
-        <id>https://liuzhengjieis.github.io/post/yishugailun</id>
-        <link href="https://liuzhengjieis.github.io/post/yishugailun">
-        </link>
-        <updated>2019-12-16T11:07:43.000Z</updated>
     </entry>
 </feed>
