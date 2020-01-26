@@ -1,11 +1,15 @@
+<!DOCTYPE html>
 <html>
   <head>
       <meta charset="UTF-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
 <title>学习，生活手记</title>
-<link rel="shortcut icon" href="https://liuzhengjieis.github.io//favicon.ico?v=1578396212057">
+<meta name="keywords" content="Gridea静态个人博客">
+<meta name="description" content="🙋‍♂️欢迎来到我的个人空间">
+<link rel="shortcut icon" href="https://liuzhengjieis.github.io//favicon.ico?v=1580050114204">
 <link rel="stylesheet" href="https://liuzhengjieis.github.io//styles/main.css">
-<meta name="description" content="🙋‍♂️欢迎来到我的个人空间" />
+
+<link rel="stylesheet" href="/media/css/gemini.css">
 
 <link rel="stylesheet" href="/media/fonts/font-awesome.css">
 <link href="//fonts.googleapis.com/css?family=Monda:300,300italic,400,400italic,700,700italic|Roboto Slab:300,300italic,400,400italic,700,700italic|Rosario:300,300italic,400,400italic,700,700italic|PT Mono:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext" rel="stylesheet" type="text/css">
@@ -23,9 +27,9 @@
     <div class="head-top-line"></div>
     <div class="header-box">
       
-<header class="header">
-  <div class="blog-header" id="header">
-    <div class="site-meta">
+<div class=" gemini">
+  <header class="header bg-color ">
+    <div class="blog-header box-shadow-wrapper bg-color " id="header">
       <div class="nav-toggle" id="nav_toggle">
         <div class="toggle-box">
           <div class="line line-top"></div>
@@ -33,49 +37,56 @@
           <div class="line line-bottom"></div>
         </div>
       </div>
-      <div class="site-title">
-        <a href="/" class="brand">
-          <span>学习，生活手记</span>
-        </a>
+      <div class="site-meta">       
+        <div class="site-title">
+          
+            <a href="/" class="brand">
+              <span>学习，生活手记</span>
+            </a>  
+          
+        </div>
+        
+          <p class="subtitle">精于心，简于形</p>
+        
       </div>
-      <p class="subtitle">Quick notes</p>
+      <nav class="site-nav" id="site_nav">
+        <ul id="nav_ul">
+          
+            <li class="nav-item ">
+              
+                <a href="https://liuzhengjieis.github.io/tags">
+                  <i class="fa fa-"></i> 标签
+                </a>
+              
+            </li>
+          
+            <li class="nav-item ">
+              
+                <a href="https://liuzhengjieis.github.io/">
+                  <i class="fa fa-"></i> 首页
+                </a>
+              
+            </li>
+          
+            <li class="nav-item ">
+              
+                <a href="https://liuzhengjieis.github.io//post/about/">
+                  <i class="fa fa-"></i> 关于
+                </a>
+              
+            </li>
+          
+          <li class="nav-item">
+            <a>
+              <i class="fa fa-search"></i> 搜索
+            </a>
+          </li>
+        </ul>
+      </nav>
     </div>
-    <nav class="site-nav" id="site_nav">
-      <ul id="nav_ul">
-        
-          <li class="nav-item ">
-            
-              <a href="https://liuzhengjieis.github.io/tags">
-                <i class="fa fa-"></i> 标签
-              </a>
-            
-          </li>
-        
-          <li class="nav-item ">
-            
-              <a href="https://liuzhengjieis.github.io/">
-                <i class="fa fa-"></i> 首页
-              </a>
-            
-          </li>
-        
-          <li class="nav-item ">
-            
-              <a href="https://liuzhengjieis.github.io//post/about/">
-                <i class="fa fa-"></i> 关于
-              </a>
-            
-          </li>
-        
-        <li class="nav-item">
-          <a>
-            <i class="fa fa-search"></i> 搜索
-          </a>
-        </li>
-      </ul>
-    </nav>
-  </div>
-</header>
+  </header>
+</div>
+
 <script type="text/javascript"> 
  
   let showNav = true;
@@ -99,16 +110,18 @@
 </script>
     </div>
     <div class="main-continer">
-      <div class="section-layout">
+      
+      <div class="section-layout  gemini">
         <div class="section-layout-wrapper">
           <div class="sidebar">
-    <div class="sidebar-wrapper">
+    
+<div class="sidebar-wrapper box-shadow-wrapper bg-color">
   <div class="sidebar-item">
-    <img class="site-author-image" src="https://liuzhengjieis.github.io//images/avatar.png"/>
+    <img class="site-author-image right-motion" src="https://liuzhengjieis.github.io//images/avatar.png"/>
     <p class="site-author-name">学习，生活手记</p>
-    <p class="site-description">🙋‍♂️欢迎来到我的个人空间</p>
+    <p class="site-description right-motion">这个人很懒，什么都不想写...</p>
   </div>
-  <div class="sidebar-item side-item-stat">
+  <div class="sidebar-item side-item-stat right-motion">
     <div class="sidebar-item-box">
       <a href="/archives/">
         
@@ -129,197 +142,248 @@
       </a>
     </div>
   </div>
-  <div class="sidebar-item">
-    <span class="site-item-rss">
-        <i class="fa fa-rss"></i>
-        <a href="https://liuzhengjieis.github.io//atom.xml" target="_blank">RSS</a>
-    </span>
-  </div>
-  <div class="sidebar-item sidebar-item-social">
-    <div class="social-item">
-      <a href="https://github.com/liuzhengjieis/liuzhengjieis.github.io">
-        <i class="fa fa-github"></i> GitHub
-      </a>
-      <a href="">
-        <i class="fa fa-twitter"></i> Twitter
-      </a>
+  
+    
+      <div class="sidebar-item" style="border-top: 1px dotted #ccc;">
+      </div>
+    
+  
+  
+    <div class="sidebar-item sidebar-item-social">
+      <div class="social-item">
+          
+            <a href="https://github.com/liuzhengjieis/liuzhengjieis.github.io">
+              <i class="fa fa-github-alt"></i> Github
+            </a>
+          
+          
+          
+          
+          
+          
+          
+      </div>
     </div>
-    <div class="social-item">
-      <a href="">
-        <i class="fa fa-globe"></i> 豆瓣
-      </a>
-      <a href="">
-        <i class="fa fa-globe"></i> 知乎
-      </a>
+  
+
+</div>
+</div>
+            <div class="section-box tag-line">
+              <div class="box-shadow-wrapper">
+                <div class="bg-color">
+                  <section class="section posts-expand">
+                    <div class="padding-wrapper">
+  <div class="tag-timeline-box">
+    <div class="tag-timeline-wrapper">
+      <div class="tag-timeline-title">
+        <h2>
+          毛概理论
+          <small>标签</small>
+        </h2>
+      </div>
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+            <a href="https://liuzhengjieis.github.io/post/mao-gai-san-ge-dai-biao-chong-yao-si-xiang">
+              <div class="motion-warpper">
+                <div class="tag-post-node">
+                  <h1>
+                    01月02日
+                    <small>【毛概】“三个代表”重要思想</small>
+                  </h1>
+                </div>  
+              </div>
+            </a>
+          
+        
+      
+        
+          
+        
+      
+        
+          
+            <a href="https://liuzhengjieis.github.io/post/mao-gai-deng-xiao-ping-li-lun-deng-xiao-ping-li-lun-de-li-shi-di-wei">
+              <div class="motion-warpper">
+                <div class="tag-post-node">
+                  <h1>
+                    12月29日
+                    <small>【毛概 · 邓小平理论】邓小平理论的历史地位</small>
+                  </h1>
+                </div>  
+              </div>
+            </a>
+          
+        
+      
+        
+          
+        
+      
+        
+          
+            <a href="https://liuzhengjieis.github.io/post/mao-gai-deng-xiao-ping-li-lun-deng-xiao-ping-li-lun-hui-da-de-ji-ben-wen-ti-he-zhu-yao-nei-rong">
+              <div class="motion-warpper">
+                <div class="tag-post-node">
+                  <h1>
+                    12月24日
+                    <small>【毛概 · 邓小平理论】邓小平理论回答的基本问题和主要内容</small>
+                  </h1>
+                </div>  
+              </div>
+            </a>
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+            <a href="https://liuzhengjieis.github.io/post/mao-ze-dong-si-xiang-de-nei-rong-he-li-shi-di-wei">
+              <div class="motion-warpper">
+                <div class="tag-post-node">
+                  <h1>
+                    12月16日
+                    <small>【毛概 · 毛思想】毛泽东思想的内容和历史地位</small>
+                  </h1>
+                </div>  
+              </div>
+            </a>
+          
+        
+      
+        
+          
+            <a href="https://liuzhengjieis.github.io/post/mao-ze-dong-si-xiang-de-xing-cheng">
+              <div class="motion-warpper">
+                <div class="tag-post-node">
+                  <h1>
+                    12月16日
+                    <small>【毛概 · 毛思想】毛泽东思想的形成</small>
+                  </h1>
+                </div>  
+              </div>
+            </a>
+          
+        
+      
+        
+          
+        
+      
+        
+          
+            <a href="https://liuzhengjieis.github.io/post/maogai">
+              <div class="motion-warpper">
+                <div class="tag-post-node">
+                  <h1>
+                    12月16日
+                    <small>《毛概》关于每个理论的总结一览</small>
+                  </h1>
+                </div>  
+              </div>
+            </a>
+          
+        
+      
+        
+          
+        
+      
+        
+      
     </div>
   </div>
 </div>
-</div>
-          <div class="section-box">
-            <section class="section posts-expand">
-              <div class="tag-timeline-box">
-  <div class="tag-timeline-wrapper">
-    <div class="tag-timeline-title">
-      <h2>
-        毛概理论
-        <small>标签</small>
-      </h2>
-    </div>
-    
-      
-        
-      
-    
-      
-        
-      
-    
-      
-        
-          <a href="https://liuzhengjieis.github.io/post/mao-gai-san-ge-dai-biao-chong-yao-si-xiang">
-            <div class="motion-warpper">
-              <div class="tag-post-node">
-                <h1>
-                  01月02日
-                  <small>【毛概】“三个代表”重要思想</small>
-                </h1>
-              </div>  
-            </div>
-          </a>
-        
-      
-    
-      
-        
-      
-    
-      
-        
-          <a href="https://liuzhengjieis.github.io/post/mao-gai-deng-xiao-ping-li-lun-deng-xiao-ping-li-lun-de-li-shi-di-wei">
-            <div class="motion-warpper">
-              <div class="tag-post-node">
-                <h1>
-                  12月29日
-                  <small>【毛概 · 邓小平理论】邓小平理论的历史地位</small>
-                </h1>
-              </div>  
-            </div>
-          </a>
-        
-      
-    
-      
-        
-      
-    
-      
-        
-          <a href="https://liuzhengjieis.github.io/post/mao-gai-deng-xiao-ping-li-lun-deng-xiao-ping-li-lun-hui-da-de-ji-ben-wen-ti-he-zhu-yao-nei-rong">
-            <div class="motion-warpper">
-              <div class="tag-post-node">
-                <h1>
-                  12月24日
-                  <small>【毛概 · 邓小平理论】邓小平理论回答的基本问题和主要内容</small>
-                </h1>
-              </div>  
-            </div>
-          </a>
-        
-      
-    
-      
-        
-      
-    
-      
-        
-      
-    
-      
-        
-          <a href="https://liuzhengjieis.github.io/post/mao-ze-dong-si-xiang-de-nei-rong-he-li-shi-di-wei">
-            <div class="motion-warpper">
-              <div class="tag-post-node">
-                <h1>
-                  12月16日
-                  <small>【毛概 · 毛思想】毛泽东思想的内容和历史地位</small>
-                </h1>
-              </div>  
-            </div>
-          </a>
-        
-      
-    
-      
-        
-          <a href="https://liuzhengjieis.github.io/post/mao-ze-dong-si-xiang-de-xing-cheng">
-            <div class="motion-warpper">
-              <div class="tag-post-node">
-                <h1>
-                  12月16日
-                  <small>【毛概 · 毛思想】毛泽东思想的形成</small>
-                </h1>
-              </div>  
-            </div>
-          </a>
-        
-      
-    
-      
-        
-      
-    
-      
-        
-          <a href="https://liuzhengjieis.github.io/post/maogai">
-            <div class="motion-warpper">
-              <div class="tag-post-node">
-                <h1>
-                  12月16日
-                  <small>《毛概》关于每个理论的总结一览</small>
-                </h1>
-              </div>  
-            </div>
-          </a>
-        
-      
-    
-      
-        
-      
-    
-      
-    
-  </div>
-</div>
-            </section>
+                  </section>
+                </div>
+              </div>
           </div>
         </div>
       </div>
       <div class="footer-box">
   <footer class="footer">
     <div class="copyright">
-      © 2019-2020 <i class="fa fa-heart"></i> liuzhengjieis
+      © 2019-2020 <i class="fa fa-heart"></i> HsxyHao
     </div>
     <div class="poweredby">
-      <div class="power-left">Power By<a href="https://github.com/liuzhengjieis/liuzhengjieis.github.io"> liuzhengjieis</a></div>
-      <div>Copy<a href="https://github.com/iissnan/hexo-theme-next"> Hexo Next Theme</a></div>
+      Powered by <a href="https://baidu.com" target="_blank">liuzhengjie</a>
     </div>
   </footer>
-  <div class="back-to-top" id="back_to_top">
+  
+  
+  <div class="gemini back-to-top" id="back_to_top">
     <i class="fa fa-arrow-up"></i>
+    
     <span class="scrollpercent">
-      <span id="back_to_top_text">100</span>%
+      <span id="back_to_top_text">0</span>%
     </span>
+    
+  </div>
+  
+  
+    <link rel="stylesheet" href="/media/live2d/histoire/css/live2d.css" />
+<div class="box-scale">
+  <div id="landlord" style="left:5px;bottom:0px;" data-key="">
+    <div class="message" style="opacity:0"></div>
+    <canvas id="live2d" width="500" height="560" class="live2d"></canvas>
+    <div class="live_talk_input_body">
+      <div class="live_talk_input_name_body">
+        <input name="name" type="text" class="live_talk_name white_input" id="AIuserName" autocomplete="off" placeholder="你的名字" />
+      </div>
+      <div class="live_talk_input_text_body">
+        <input name="talk" type="text" class="live_talk_talk white_input" id="AIuserText" autocomplete="off" placeholder="要和我聊什么呀？"/>
+        <button type="button" class="live_talk_send_btn" id="talk_send">发送</button>
+      </div>
+    </div>
+    <input name="live_talk" id="live_talk" value="1" type="hidden" />
+    <div class="live_ico_box">
+      <div class="live_ico_item type_info" id="showInfoBtn"></div>
+      <div class="live_ico_item type_talk" id="showTalkBtn"></div>
+      
+      <div class="live_ico_item type_youdu" id="youduButton"></div>
+      <div class="live_ico_item type_quit" id="hideButton"></div>
+      <input name="live_statu_val" id="live_statu_val" value="0" type="hidden" />
+      <audio src="" style="display:none;" id="live2d_bgm" data-bgm="0" preload="none"></audio>
+      <input id="duType" value="douqilai" type="hidden">
+      
+    </div>
   </div>
 </div>
-
+<div id="open_live2d">召唤伊斯特瓦尔</div>
+<script type="text/javascript" src="https://apps.bdimg.com/libs/jquery/1.7.1/jquery.min.js"></script>
+<script>
+var message_Path = '/media/live2d/histoire/';
+let landlord = document.querySelector('#landlord');
+var apiKey = landlord.dataset.key;
+</script>
+<script type="text/javascript" src="/media/live2d/histoire/js/live2d.js"></script>
+<script type="text/javascript" src="/media/live2d/histoire/js/message.js"></script>
+  
+</div>
 <script>
 
+  let sideBarOpen = 'sidebar-open';
   let body = document.body;
-
   let back2Top = document.querySelector('#back_to_top'),
-  back2TopText = document.querySelector('#back_to_top_text');
+  back2TopText = document.querySelector('#back_to_top_text'),
+  drawerBox = document.querySelector('#drawer_box'),
+  rightSideBar = document.querySelector('.sidebar'),
+  viewport = document.querySelector('body');
 
   function scrollAnimation(currentY, targetY) {
    
@@ -338,26 +402,109 @@
   }
 
   back2Top.addEventListener("click", function(e) {
-    scrollAnimation(body.scrollTop, 0);
+    scrollAnimation(document.scrollingElement.scrollTop, 0);
     e.stopPropagation();
     return false;
   });
   
   window.addEventListener('scroll', function(e) {
-    let percent = body.scrollTop / (body.scrollHeight - body.clientHeight) * 100;
+    let percent = document.scrollingElement.scrollTop / (document.scrollingElement.scrollHeight - document.scrollingElement.clientHeight) * 100;
     if (percent > 1 && !back2Top.classList.contains('back-top-active')) {
       back2Top.classList.add('back-top-active');
     }
     if (percent == 0) {
       back2Top.classList.remove('back-top-active');
     }
-    back2TopText.textContent = Math.floor(percent);
+    if (back2TopText) {
+      back2TopText.textContent = Math.floor(percent);
+    }
   });
 
-  // 动态调整站点概览高度
-  let sideBar = document.querySelector('.sidebar');
-  let navUl = document.querySelector('#nav_ul');
-  sideBar.style = 'margin-top:' + (navUl.children.length * 42 + 162) + 'px; opacity: 1;';
+  
+  let hasCacu = false;
+  window.onresize = function() {
+    if (window.width > 991) {
+      calcuHeight();
+    } else {
+      hasCacu = false;
+    }
+  }
+
+  function calcuHeight() {
+    // 动态调整站点概览高度
+    if (!hasCacu && back2Top.classList.contains('pisces') || back2Top.classList.contains('gemini')) {
+      let sideBar = document.querySelector('.sidebar');
+      let navUl = document.querySelector('#site_nav');
+      sideBar.style = 'margin-top:' + (navUl.offsetHeight + navUl.offsetTop + 15) + 'px;';
+      hasCacu = true;
+    }
+  }
+  calcuHeight();
+  
+  let open = false, MOTION_TIME = 300, RIGHT_MOVE_DIS = '320px';
+
+  if (drawerBox) {
+    let rightMotions = document.querySelectorAll('.right-motion');
+    let right = drawerBox.classList.contains('right');
+
+    let transitionDir = right ? "transition.slideRightIn" : "transition.slideLeftIn";
+
+    let openProp, closeProp;
+    if (right) {
+      openProp = {
+        paddingRight: RIGHT_MOVE_DIS 
+      };
+      closeProp = {
+        paddingRight: '0px'
+      };
+    } else {
+      openProp = {
+        paddingLeft: RIGHT_MOVE_DIS 
+      };
+      closeProp = {
+        paddingLeft: '0px'
+      };
+    }
+
+    drawerBox.onclick = function() {
+      open = !open;
+      window.Velocity(rightSideBar, 'stop');
+      window.Velocity(viewport, 'stop');
+      window.Velocity(rightMotions, 'stop');
+      if (open) {
+        window.Velocity(rightSideBar, {
+          width: RIGHT_MOVE_DIS
+        }, {
+          duration: MOTION_TIME,
+          begin: function() {
+            window.Velocity(rightMotions, transitionDir,{ });
+          }
+        })
+        window.Velocity(viewport, openProp,{
+          duration: MOTION_TIME
+        });
+      } else {
+        window.Velocity(rightSideBar, {
+          width: '0px'
+        }, {
+          duration: MOTION_TIME,
+          begin: function() {
+            window.Velocity(rightMotions, {
+              opacity: 0
+            });
+          }
+        })
+        window.Velocity(viewport, closeProp ,{
+          duration: MOTION_TIME
+        });
+      }
+      for (let i = 0; i < drawerBox.children.length; i++) {
+        drawerBox.children[i].classList.toggle('muse-line');
+      }
+      drawerBox.classList.toggle(sideBarOpen);
+    }
+  }
+
   // 代码高亮
   hljs.initHighlightingOnLoad();
 </script>

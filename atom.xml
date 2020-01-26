@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://liuzhengjieis.github.io/</id>
     <title>学习，生活手记</title>
-    <updated>2020-01-07T11:24:55.366Z</updated>
+    <updated>2020-01-26T14:49:54.076Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://liuzhengjieis.github.io/"/>
     <link rel="self" href="https://liuzhengjieis.github.io/atom.xml"/>
@@ -11,7 +11,7 @@
     <icon>https://liuzhengjieis.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, 学习，生活手记</rights>
     <entry>
-        <title type="html"><![CDATA[《艺术与设计》 第一章]]></title>
+        <title type="html"><![CDATA[艺术与设计，第一章：“纯艺术”与“实用艺术”]]></title>
         <id>https://liuzhengjieis.github.io/post/lesslessyi-zhu-yu-she-ji-greatergreater-di-yi-zhang</id>
         <link href="https://liuzhengjieis.github.io/post/lesslessyi-zhu-yu-she-ji-greatergreater-di-yi-zhang">
         </link>
@@ -26,7 +26,7 @@
 ]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[文艺复兴时期的建筑艺术]]></title>
+        <title type="html"><![CDATA[文艺复兴时期——建筑]]></title>
         <id>https://liuzhengjieis.github.io/post/wengyifuxingjianzhu</id>
         <link href="https://liuzhengjieis.github.io/post/wengyifuxingjianzhu">
         </link>
@@ -80,7 +80,7 @@
 ]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[西方现代设计史]]></title>
+        <title type="html"><![CDATA[西方近现代设计史]]></title>
         <id>https://liuzhengjieis.github.io/post/xi-fang-xian-dai-she-ji-shi</id>
         <link href="https://liuzhengjieis.github.io/post/xi-fang-xian-dai-she-ji-shi">
         </link>

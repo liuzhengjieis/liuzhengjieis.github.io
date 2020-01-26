@@ -1,11 +1,15 @@
+<!DOCTYPE html>
 <html>
   <head>
       <meta charset="UTF-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
 <title>学习，生活手记</title>
-<link rel="shortcut icon" href="https://liuzhengjieis.github.io//favicon.ico?v=1578396212057">
+<meta name="keywords" content="Gridea静态个人博客">
+<meta name="description" content="🙋‍♂️欢迎来到我的个人空间">
+<link rel="shortcut icon" href="https://liuzhengjieis.github.io//favicon.ico?v=1580050114204">
 <link rel="stylesheet" href="https://liuzhengjieis.github.io//styles/main.css">
-<meta name="description" content="🙋‍♂️欢迎来到我的个人空间" />
+
+<link rel="stylesheet" href="/media/css/gemini.css">
 
 <link rel="stylesheet" href="/media/fonts/font-awesome.css">
 <link href="//fonts.googleapis.com/css?family=Monda:300,300italic,400,400italic,700,700italic|Roboto Slab:300,300italic,400,400italic,700,700italic|Rosario:300,300italic,400,400italic,700,700italic|PT Mono:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext" rel="stylesheet" type="text/css">
@@ -23,9 +27,9 @@
     <div class="head-top-line"></div>
     <div class="header-box">
       
-<header class="header">
-  <div class="blog-header" id="header">
-    <div class="site-meta">
+<div class=" gemini">
+  <header class="header bg-color ">
+    <div class="blog-header box-shadow-wrapper bg-color " id="header">
       <div class="nav-toggle" id="nav_toggle">
         <div class="toggle-box">
           <div class="line line-top"></div>
@@ -33,49 +37,56 @@
           <div class="line line-bottom"></div>
         </div>
       </div>
-      <div class="site-title">
-        <a href="/" class="brand">
-          <span>学习，生活手记</span>
-        </a>
+      <div class="site-meta">       
+        <div class="site-title">
+          
+            <a href="/" class="brand">
+              <span>学习，生活手记</span>
+            </a>  
+          
+        </div>
+        
+          <p class="subtitle">精于心，简于形</p>
+        
       </div>
-      <p class="subtitle">Quick notes</p>
+      <nav class="site-nav" id="site_nav">
+        <ul id="nav_ul">
+          
+            <li class="nav-item ">
+              
+                <a href="https://liuzhengjieis.github.io/tags">
+                  <i class="fa fa-"></i> 标签
+                </a>
+              
+            </li>
+          
+            <li class="nav-item ">
+              
+                <a href="https://liuzhengjieis.github.io/">
+                  <i class="fa fa-"></i> 首页
+                </a>
+              
+            </li>
+          
+            <li class="nav-item ">
+              
+                <a href="https://liuzhengjieis.github.io//post/about/">
+                  <i class="fa fa-"></i> 关于
+                </a>
+              
+            </li>
+          
+          <li class="nav-item">
+            <a>
+              <i class="fa fa-search"></i> 搜索
+            </a>
+          </li>
+        </ul>
+      </nav>
     </div>
-    <nav class="site-nav" id="site_nav">
-      <ul id="nav_ul">
-        
-          <li class="nav-item ">
-            
-              <a href="https://liuzhengjieis.github.io/tags">
-                <i class="fa fa-"></i> 标签
-              </a>
-            
-          </li>
-        
-          <li class="nav-item ">
-            
-              <a href="https://liuzhengjieis.github.io/">
-                <i class="fa fa-"></i> 首页
-              </a>
-            
-          </li>
-        
-          <li class="nav-item ">
-            
-              <a href="https://liuzhengjieis.github.io//post/about/">
-                <i class="fa fa-"></i> 关于
-              </a>
-            
-          </li>
-        
-        <li class="nav-item">
-          <a>
-            <i class="fa fa-search"></i> 搜索
-          </a>
-        </li>
-      </ul>
-    </nav>
-  </div>
-</header>
+  </header>
+</div>
+
 <script type="text/javascript"> 
  
   let showNav = true;
@@ -99,16 +110,18 @@
 </script>
     </div>
     <div class="main-continer">
-      <div class="section-layout">
+      
+      <div class="section-layout gemini ">
         <div class="section-layout-wrapper">
           <div class="sidebar">
-    <div class="sidebar-wrapper">
+    
+<div class="sidebar-wrapper box-shadow-wrapper bg-color">
   <div class="sidebar-item">
-    <img class="site-author-image" src="https://liuzhengjieis.github.io//images/avatar.png"/>
+    <img class="site-author-image right-motion" src="https://liuzhengjieis.github.io//images/avatar.png"/>
     <p class="site-author-name">学习，生活手记</p>
-    <p class="site-description">🙋‍♂️欢迎来到我的个人空间</p>
+    <p class="site-description right-motion">这个人很懒，什么都不想写...</p>
   </div>
-  <div class="sidebar-item side-item-stat">
+  <div class="sidebar-item side-item-stat right-motion">
     <div class="sidebar-item-box">
       <a href="/archives/">
         
@@ -129,43 +142,45 @@
       </a>
     </div>
   </div>
-  <div class="sidebar-item">
-    <span class="site-item-rss">
-        <i class="fa fa-rss"></i>
-        <a href="https://liuzhengjieis.github.io//atom.xml" target="_blank">RSS</a>
-    </span>
-  </div>
-  <div class="sidebar-item sidebar-item-social">
-    <div class="social-item">
-      <a href="https://github.com/liuzhengjieis/liuzhengjieis.github.io">
-        <i class="fa fa-github"></i> GitHub
-      </a>
-      <a href="">
-        <i class="fa fa-twitter"></i> Twitter
-      </a>
+  
+    
+      <div class="sidebar-item" style="border-top: 1px dotted #ccc;">
+      </div>
+    
+  
+  
+    <div class="sidebar-item sidebar-item-social">
+      <div class="social-item">
+          
+            <a href="https://github.com/liuzhengjieis/liuzhengjieis.github.io">
+              <i class="fa fa-github-alt"></i> Github
+            </a>
+          
+          
+          
+          
+          
+          
+          
+      </div>
     </div>
-    <div class="social-item">
-      <a href="">
-        <i class="fa fa-globe"></i> 豆瓣
-      </a>
-      <a href="">
-        <i class="fa fa-globe"></i> 知乎
-      </a>
-    </div>
-  </div>
+  
+
 </div>
 </div>
-          <div class="section-box">
-            <section class="section posts-expand slide-down-in">
+          <div class="section-box gemini">
+            <section class="section  posts-expand slide-down-in">
               
-  <article class="post-list-box post">
-    <header class="post-header">
+  <article class="post-list-box  post box-shadow-wrapper">
+    <div class="article-wrapper bg-color">
+      <header class="post-header">
   <h1 class="post-title">
     <a class="post-title-link" href="https://liuzhengjieis.github.io/post/lesslessyi-zhu-yu-she-ji-greatergreater-di-yi-zhang">
-      《艺术与设计》 第一章
+      艺术与设计，第一章：“纯艺术”与“实用艺术”
     </a>
   </h1>
   <div class="post-meta">
+    
     <span class="meta-item pc-show">
       <i class="fa fa-calendar-o"></i>
       <span>发布于</span>
@@ -184,9 +199,9 @@
           
         
       </span>
+      <span class="post-meta-divider">|</span>
     
     <span class="meta-item">
-      <span class="post-meta-divider">|</span>
       <i class="fa fa-clock-o"></i>
       <span>7分钟</span>
     </span>
@@ -197,34 +212,35 @@
     </span>
   </div>
 </header>
-    <div class="post-body">
-      <p>黑格尔说过：“艺术类型不过是内容和形象之间的各种不同的关系。”是的，艺术是一个错综复杂现象，既有精神性的产品，也有包括精神与物质相结合的产品，所以艺术必然会有纯艺术和实用艺术。<br>
+      <div class="post-body">
+        
+          <p>黑格尔说过：“艺术类型不过是内容和形象之间的各种不同的关系。”是的，艺术是一个错综复杂现象，既有精神性的产品，也有包括精神与物质相结合的产品，所以艺术必然会有纯艺术和实用艺术。<br>
 那么结合艺术的起源和本质，到底纯艺术或者实用艺术是如何形成和发展的呢？<br>
 <img src="https://m.therafchannel.com/www/plus/misc/images/codex-atlanticus-02.jpg" alt="" loading="lazy"></p>
 
-      <!--noindex-->
-      
-      <div class="post-button text-center">
-        <a class="btn" href="https://liuzhengjieis.github.io/post/lesslessyi-zhu-yu-she-ji-greatergreater-di-yi-zhang" rel="contents">
-          阅读全文 »
-        </a>
+        
+        
+        <div class="post-button text-center">
+          <a class="btn" href="https://liuzhengjieis.github.io/post/lesslessyi-zhu-yu-she-ji-greatergreater-di-yi-zhang" rel="contents">
+            阅读全文 »
+          </a>
+        </div>
+        
       </div>
-      <!--/noindex-->
       
     </div>
-    <footer class="post-footer">
-      <div class="post-eof"></div>
-    </footer>
   </article>
 
-  <article class="post-list-box post">
-    <header class="post-header">
+  <article class="post-list-box  post box-shadow-wrapper">
+    <div class="article-wrapper bg-color">
+      <header class="post-header">
   <h1 class="post-title">
     <a class="post-title-link" href="https://liuzhengjieis.github.io/post/wengyifuxingjianzhu">
-      文艺复兴时期的建筑艺术
+      文艺复兴时期——建筑
     </a>
   </h1>
   <div class="post-meta">
+    
     <span class="meta-item pc-show">
       <i class="fa fa-calendar-o"></i>
       <span>发布于</span>
@@ -243,9 +259,9 @@
           
         
       </span>
+      <span class="post-meta-divider">|</span>
     
     <span class="meta-item">
-      <span class="post-meta-divider">|</span>
       <i class="fa fa-clock-o"></i>
       <span>7分钟</span>
     </span>
@@ -256,33 +272,34 @@
     </span>
   </div>
 </header>
-    <div class="post-body">
-      <p><strong>文艺复兴建筑</strong>是公元14识记在意大利发生的文艺复兴时期兴起的建筑风格，是基于对神权之上的批判和对人文主义的肯定。在这一时期出现了建筑师这个职业，并且通过继承罗马的古典比例美来塑造古典社会的协调秩序。所以文艺复兴建筑通常是具有秩序和比例的美感，拥有严谨的立面图和平面结构的建筑。<br>
+      <div class="post-body">
+        
+          <p><strong>文艺复兴建筑</strong>是公元14识记在意大利发生的文艺复兴时期兴起的建筑风格，是基于对神权之上的批判和对人文主义的肯定。在这一时期出现了建筑师这个职业，并且通过继承罗马的古典比例美来塑造古典社会的协调秩序。所以文艺复兴建筑通常是具有秩序和比例的美感，拥有严谨的立面图和平面结构的建筑。<br>
 <img src="https://liuzhengjieis.github.io//post-images/1578153871543.PNG" alt="来自http://www.archidict.com/en/" loading="lazy"></p>
 
-      <!--noindex-->
-      
-      <div class="post-button text-center">
-        <a class="btn" href="https://liuzhengjieis.github.io/post/wengyifuxingjianzhu" rel="contents">
-          阅读全文 »
-        </a>
+        
+        
+        <div class="post-button text-center">
+          <a class="btn" href="https://liuzhengjieis.github.io/post/wengyifuxingjianzhu" rel="contents">
+            阅读全文 »
+          </a>
+        </div>
+        
       </div>
-      <!--/noindex-->
       
     </div>
-    <footer class="post-footer">
-      <div class="post-eof"></div>
-    </footer>
   </article>
 
-  <article class="post-list-box post">
-    <header class="post-header">
+  <article class="post-list-box  post box-shadow-wrapper">
+    <div class="article-wrapper bg-color">
+      <header class="post-header">
   <h1 class="post-title">
     <a class="post-title-link" href="https://liuzhengjieis.github.io/post/mao-gai-san-ge-dai-biao-chong-yao-si-xiang">
       【毛概】“三个代表”重要思想
     </a>
   </h1>
   <div class="post-meta">
+    
     <span class="meta-item pc-show">
       <i class="fa fa-calendar-o"></i>
       <span>发布于</span>
@@ -301,9 +318,9 @@
           
         
       </span>
+      <span class="post-meta-divider">|</span>
     
     <span class="meta-item">
-      <span class="post-meta-divider">|</span>
       <i class="fa fa-clock-o"></i>
       <span>6分钟</span>
     </span>
@@ -314,33 +331,34 @@
     </span>
   </div>
 </header>
-    <div class="post-body">
-      <p>“三个代表”重要思想</p>
+      <div class="post-body">
+        
+          <p>“三个代表”重要思想</p>
 <p>“三个代表”重要思想是中国特色社会主义理论中的其中一个理论</p>
 
-      <!--noindex-->
-      
-      <div class="post-button text-center">
-        <a class="btn" href="https://liuzhengjieis.github.io/post/mao-gai-san-ge-dai-biao-chong-yao-si-xiang" rel="contents">
-          阅读全文 »
-        </a>
+        
+        
+        <div class="post-button text-center">
+          <a class="btn" href="https://liuzhengjieis.github.io/post/mao-gai-san-ge-dai-biao-chong-yao-si-xiang" rel="contents">
+            阅读全文 »
+          </a>
+        </div>
+        
       </div>
-      <!--/noindex-->
       
     </div>
-    <footer class="post-footer">
-      <div class="post-eof"></div>
-    </footer>
   </article>
 
-  <article class="post-list-box post">
-    <header class="post-header">
+  <article class="post-list-box  post box-shadow-wrapper">
+    <div class="article-wrapper bg-color">
+      <header class="post-header">
   <h1 class="post-title">
     <a class="post-title-link" href="https://liuzhengjieis.github.io/post/ju-fa-xu-ni-yu-qi-de-ying-yong">
       【句法】虚拟语气的应用
     </a>
   </h1>
   <div class="post-meta">
+    
     <span class="meta-item pc-show">
       <i class="fa fa-calendar-o"></i>
       <span>发布于</span>
@@ -359,9 +377,9 @@
           
         
       </span>
+      <span class="post-meta-divider">|</span>
     
     <span class="meta-item">
-      <span class="post-meta-divider">|</span>
       <i class="fa fa-clock-o"></i>
       <span>10分钟</span>
     </span>
@@ -372,35 +390,36 @@
     </span>
   </div>
 </header>
-    <div class="post-body">
-      <h1 id="什么是虚拟语气">什么是虚拟语气？</h1>
+      <div class="post-body">
+        
+          <h1 id="什么是虚拟语气">什么是虚拟语气？</h1>
 <p>每当我们对一件事情不满意或表示后悔的时候，常常会说：“要不是....我就.......”想吃后悔药，但为时已晚。这个时候，我们通常会说出一个假设，这个假设的句子就是虚拟语气。<br>
 然而，虚拟语气也有时态的变化。根据事实发生的时间，对应虚拟语气的时态，即“现在事实相反”，“过去事实相反”...<br>
 <img src="https://mir-s3-cdn-cf.behance.net/project_modules/fs/3ce5a970897951.5bb313c2ced21.jpg" alt="Pic form behace by Roberts Rurans" loading="lazy"></p>
 
-      <!--noindex-->
-      
-      <div class="post-button text-center">
-        <a class="btn" href="https://liuzhengjieis.github.io/post/ju-fa-xu-ni-yu-qi-de-ying-yong" rel="contents">
-          阅读全文 »
-        </a>
+        
+        
+        <div class="post-button text-center">
+          <a class="btn" href="https://liuzhengjieis.github.io/post/ju-fa-xu-ni-yu-qi-de-ying-yong" rel="contents">
+            阅读全文 »
+          </a>
+        </div>
+        
       </div>
-      <!--/noindex-->
       
     </div>
-    <footer class="post-footer">
-      <div class="post-eof"></div>
-    </footer>
   </article>
 
-  <article class="post-list-box post">
-    <header class="post-header">
+  <article class="post-list-box  post box-shadow-wrapper">
+    <div class="article-wrapper bg-color">
+      <header class="post-header">
   <h1 class="post-title">
     <a class="post-title-link" href="https://liuzhengjieis.github.io/post/mao-gai-deng-xiao-ping-li-lun-deng-xiao-ping-li-lun-de-li-shi-di-wei">
       【毛概 · 邓小平理论】邓小平理论的历史地位
     </a>
   </h1>
   <div class="post-meta">
+    
     <span class="meta-item pc-show">
       <i class="fa fa-calendar-o"></i>
       <span>发布于</span>
@@ -419,9 +438,9 @@
           
         
       </span>
+      <span class="post-meta-divider">|</span>
     
     <span class="meta-item">
-      <span class="post-meta-divider">|</span>
       <i class="fa fa-clock-o"></i>
       <span>3分钟</span>
     </span>
@@ -432,32 +451,33 @@
     </span>
   </div>
 </header>
-    <div class="post-body">
-      <figure data-type="image" tabindex="1"><img src="http://baidu.tokyo/wp-content/uploads/2018/12/nyns-hqhtqsq1571020.jpg" alt="邓小平" loading="lazy"></figure>
+      <div class="post-body">
+        
+          <figure data-type="image" tabindex="1"><img src="http://baidu.tokyo/wp-content/uploads/2018/12/nyns-hqhtqsq1571020.jpg" alt="邓小平" loading="lazy"></figure>
 
-      <!--noindex-->
-      
-      <div class="post-button text-center">
-        <a class="btn" href="https://liuzhengjieis.github.io/post/mao-gai-deng-xiao-ping-li-lun-deng-xiao-ping-li-lun-de-li-shi-di-wei" rel="contents">
-          阅读全文 »
-        </a>
+        
+        
+        <div class="post-button text-center">
+          <a class="btn" href="https://liuzhengjieis.github.io/post/mao-gai-deng-xiao-ping-li-lun-deng-xiao-ping-li-lun-de-li-shi-di-wei" rel="contents">
+            阅读全文 »
+          </a>
+        </div>
+        
       </div>
-      <!--/noindex-->
       
     </div>
-    <footer class="post-footer">
-      <div class="post-eof"></div>
-    </footer>
   </article>
 
-  <article class="post-list-box post">
-    <header class="post-header">
+  <article class="post-list-box  post box-shadow-wrapper">
+    <div class="article-wrapper bg-color">
+      <header class="post-header">
   <h1 class="post-title">
     <a class="post-title-link" href="https://liuzhengjieis.github.io/post/xi-fang-xian-dai-she-ji-shi">
-      西方现代设计史
+      西方近现代设计史
     </a>
   </h1>
   <div class="post-meta">
+    
     <span class="meta-item pc-show">
       <i class="fa fa-calendar-o"></i>
       <span>发布于</span>
@@ -476,9 +496,9 @@
           
         
       </span>
+      <span class="post-meta-divider">|</span>
     
     <span class="meta-item">
-      <span class="post-meta-divider">|</span>
       <i class="fa fa-clock-o"></i>
       <span>13分钟</span>
     </span>
@@ -489,33 +509,34 @@
     </span>
   </div>
 </header>
-    <div class="post-body">
-      <p>西方设计可以追溯到7500年前，一直到现代。西方设计经历了文艺复兴，工业革命等的大变革，逐渐形成一套完整的设计理论体系。本文以分别以文艺复兴和工业革命为分割点，阐述文艺复兴前后和工业革命前后设计理论和设计风格的变化和发展。</p>
+      <div class="post-body">
+        
+          <p>西方设计可以追溯到7500年前，一直到现代。西方设计经历了文艺复兴，工业革命等的大变革，逐渐形成一套完整的设计理论体系。本文以分别以文艺复兴和工业革命为分割点，阐述文艺复兴前后和工业革命前后设计理论和设计风格的变化和发展。</p>
 <figure data-type="image" tabindex="1"><img src="http://file01.16sucai.com/d/file/2013/1014/16e5b26a45259fc3d5f9e91eb3cf9471.jpg" alt="凳子" loading="lazy"></figure>
 
-      <!--noindex-->
-      
-      <div class="post-button text-center">
-        <a class="btn" href="https://liuzhengjieis.github.io/post/xi-fang-xian-dai-she-ji-shi" rel="contents">
-          阅读全文 »
-        </a>
+        
+        
+        <div class="post-button text-center">
+          <a class="btn" href="https://liuzhengjieis.github.io/post/xi-fang-xian-dai-she-ji-shi" rel="contents">
+            阅读全文 »
+          </a>
+        </div>
+        
       </div>
-      <!--/noindex-->
       
     </div>
-    <footer class="post-footer">
-      <div class="post-eof"></div>
-    </footer>
   </article>
 
-  <article class="post-list-box post">
-    <header class="post-header">
+  <article class="post-list-box  post box-shadow-wrapper">
+    <div class="article-wrapper bg-color">
+      <header class="post-header">
   <h1 class="post-title">
     <a class="post-title-link" href="https://liuzhengjieis.github.io/post/mao-gai-deng-xiao-ping-li-lun-deng-xiao-ping-li-lun-hui-da-de-ji-ben-wen-ti-he-zhu-yao-nei-rong">
       【毛概 · 邓小平理论】邓小平理论回答的基本问题和主要内容
     </a>
   </h1>
   <div class="post-meta">
+    
     <span class="meta-item pc-show">
       <i class="fa fa-calendar-o"></i>
       <span>发布于</span>
@@ -534,9 +555,9 @@
           
         
       </span>
+      <span class="post-meta-divider">|</span>
     
     <span class="meta-item">
-      <span class="post-meta-divider">|</span>
       <i class="fa fa-clock-o"></i>
       <span>14分钟</span>
     </span>
@@ -547,32 +568,33 @@
     </span>
   </div>
 </header>
-    <div class="post-body">
-      <figure data-type="image" tabindex="1"><img src="https://ichef.bbci.co.uk/news/624/cpsprodpb/DF18/production/_104721175_gettyimages-515575018.jpg" alt="邓小平" loading="lazy"></figure>
+      <div class="post-body">
+        
+          <figure data-type="image" tabindex="1"><img src="https://ichef.bbci.co.uk/news/624/cpsprodpb/DF18/production/_104721175_gettyimages-515575018.jpg" alt="邓小平" loading="lazy"></figure>
 
-      <!--noindex-->
-      
-      <div class="post-button text-center">
-        <a class="btn" href="https://liuzhengjieis.github.io/post/mao-gai-deng-xiao-ping-li-lun-deng-xiao-ping-li-lun-hui-da-de-ji-ben-wen-ti-he-zhu-yao-nei-rong" rel="contents">
-          阅读全文 »
-        </a>
+        
+        
+        <div class="post-button text-center">
+          <a class="btn" href="https://liuzhengjieis.github.io/post/mao-gai-deng-xiao-ping-li-lun-deng-xiao-ping-li-lun-hui-da-de-ji-ben-wen-ti-he-zhu-yao-nei-rong" rel="contents">
+            阅读全文 »
+          </a>
+        </div>
+        
       </div>
-      <!--/noindex-->
       
     </div>
-    <footer class="post-footer">
-      <div class="post-eof"></div>
-    </footer>
   </article>
 
-  <article class="post-list-box post">
-    <header class="post-header">
+  <article class="post-list-box  post box-shadow-wrapper">
+    <div class="article-wrapper bg-color">
+      <header class="post-header">
   <h1 class="post-title">
     <a class="post-title-link" href="https://liuzhengjieis.github.io/post/ming-ci-shi-tai">
       【动词】时态
     </a>
   </h1>
   <div class="post-meta">
+    
     <span class="meta-item pc-show">
       <i class="fa fa-calendar-o"></i>
       <span>发布于</span>
@@ -591,9 +613,9 @@
           
         
       </span>
+      <span class="post-meta-divider">|</span>
     
     <span class="meta-item">
-      <span class="post-meta-divider">|</span>
       <i class="fa fa-clock-o"></i>
       <span>3分钟</span>
     </span>
@@ -604,35 +626,36 @@
     </span>
   </div>
 </header>
-    <div class="post-body">
-      <p>时态可以看作是表示动作时间和状态的一种结构，由固定的助动词或分词构成。每个句子都会存在时态的表达，因为时态是英语最为常用的句子结构。</p>
+      <div class="post-body">
+        
+          <p>时态可以看作是表示动作时间和状态的一种结构，由固定的助动词或分词构成。每个句子都会存在时态的表达，因为时态是英语最为常用的句子结构。</p>
 <p>时态可分为“时”和“态”，即时间和状态；时间为现在时、过去时、将来时。状态为一般态、进行态、完成态。</p>
 <p>一般的时态都是时间和状态构成，但也有时和时，态和态的构成，那就是：过去将来时、完成进行态。这里把时态分为<strong>一级时态</strong>和<strong>二级时态</strong><br>
 <img src="https://liuzhengjieis.github.io//post-images/1577894947292.jpg" alt="English" loading="lazy"></p>
 
-      <!--noindex-->
-      
-      <div class="post-button text-center">
-        <a class="btn" href="https://liuzhengjieis.github.io/post/ming-ci-shi-tai" rel="contents">
-          阅读全文 »
-        </a>
+        
+        
+        <div class="post-button text-center">
+          <a class="btn" href="https://liuzhengjieis.github.io/post/ming-ci-shi-tai" rel="contents">
+            阅读全文 »
+          </a>
+        </div>
+        
       </div>
-      <!--/noindex-->
       
     </div>
-    <footer class="post-footer">
-      <div class="post-eof"></div>
-    </footer>
   </article>
 
-  <article class="post-list-box post">
-    <header class="post-header">
+  <article class="post-list-box  post box-shadow-wrapper">
+    <div class="article-wrapper bg-color">
+      <header class="post-header">
   <h1 class="post-title">
     <a class="post-title-link" href="https://liuzhengjieis.github.io/post/dong-ci-ban-zhu-dong-ci">
       【动词】半助动词
     </a>
   </h1>
   <div class="post-meta">
+    
     <span class="meta-item pc-show">
       <i class="fa fa-calendar-o"></i>
       <span>发布于</span>
@@ -651,9 +674,9 @@
           
         
       </span>
+      <span class="post-meta-divider">|</span>
     
     <span class="meta-item">
-      <span class="post-meta-divider">|</span>
       <i class="fa fa-clock-o"></i>
       <span>3分钟</span>
     </span>
@@ -664,8 +687,9 @@
     </span>
   </div>
 </header>
-    <div class="post-body">
-      <h1 id="何为半助动词">何为半助动词？</h1>
+      <div class="post-body">
+        
+          <h1 id="何为半助动词">何为半助动词？</h1>
 <p>所谓半助动词，是一些介于实义动词与助动词之间的表达方式，必须和不定式连用构成复合谓语，才能表达完整的意思。<br>
 例如表达下面这个句子：</p>
 <blockquote>
@@ -675,29 +699,29 @@ I am afraid to say what he thinks.</p>
 <p>句子中be afraid为半助动词，意为“害怕”，与不定式to say构成复合谓语。<br>
 半助动词的作用与副词有点相似，但又有所区别。副词的作用是加强描绘谓语动词，而半助动词与谓语动词在一起构成一个有“属性说明”的动作。</p>
 
-      <!--noindex-->
-      
-      <div class="post-button text-center">
-        <a class="btn" href="https://liuzhengjieis.github.io/post/dong-ci-ban-zhu-dong-ci" rel="contents">
-          阅读全文 »
-        </a>
+        
+        
+        <div class="post-button text-center">
+          <a class="btn" href="https://liuzhengjieis.github.io/post/dong-ci-ban-zhu-dong-ci" rel="contents">
+            阅读全文 »
+          </a>
+        </div>
+        
       </div>
-      <!--/noindex-->
       
     </div>
-    <footer class="post-footer">
-      <div class="post-eof"></div>
-    </footer>
   </article>
 
-  <article class="post-list-box post">
-    <header class="post-header">
+  <article class="post-list-box  post box-shadow-wrapper">
+    <div class="article-wrapper bg-color">
+      <header class="post-header">
   <h1 class="post-title">
     <a class="post-title-link" href="https://liuzhengjieis.github.io/post/mao-ze-dong-si-xiang-de-nei-rong-he-li-shi-di-wei">
       【毛概 · 毛思想】毛泽东思想的内容和历史地位
     </a>
   </h1>
   <div class="post-meta">
+    
     <span class="meta-item pc-show">
       <i class="fa fa-calendar-o"></i>
       <span>发布于</span>
@@ -716,9 +740,9 @@ I am afraid to say what he thinks.</p>
           
         
       </span>
+      <span class="post-meta-divider">|</span>
     
     <span class="meta-item">
-      <span class="post-meta-divider">|</span>
       <i class="fa fa-clock-o"></i>
       <span>10分钟</span>
     </span>
@@ -729,28 +753,27 @@ I am afraid to say what he thinks.</p>
     </span>
   </div>
 </header>
-    <div class="post-body">
-      <p>毛泽东思想是马克思主义中国化的第一个重大理论成果，是马克思列宁主义在中国的运用和发展，是被实践证明了的关于中国革命和建设的正确的理论原则和经验总结，是中国共产党集体的智慧结晶，是党必须长期坚持的指导思想。<br>
+      <div class="post-body">
+        
+          <p>毛泽东思想是马克思主义中国化的第一个重大理论成果，是马克思列宁主义在中国的运用和发展，是被实践证明了的关于中国革命和建设的正确的理论原则和经验总结，是中国共产党集体的智慧结晶，是党必须长期坚持的指导思想。<br>
 <img src="http://y3.ifengimg.com/a/2014_16/33d3df7c7461c37.jpg" alt="毛泽东" loading="lazy"></p>
 
-      <!--noindex-->
-      
-      <div class="post-button text-center">
-        <a class="btn" href="https://liuzhengjieis.github.io/post/mao-ze-dong-si-xiang-de-nei-rong-he-li-shi-di-wei" rel="contents">
-          阅读全文 »
-        </a>
+        
+        
+        <div class="post-button text-center">
+          <a class="btn" href="https://liuzhengjieis.github.io/post/mao-ze-dong-si-xiang-de-nei-rong-he-li-shi-di-wei" rel="contents">
+            阅读全文 »
+          </a>
+        </div>
+        
       </div>
-      <!--/noindex-->
       
     </div>
-    <footer class="post-footer">
-      <div class="post-eof"></div>
-    </footer>
   </article>
   
               
               
-<div class="page">
+<div class="page bg-color">
   <ul class="pagination-ul">
     
     
@@ -784,27 +807,72 @@ I am afraid to say what he thinks.</p>
       <div class="footer-box">
   <footer class="footer">
     <div class="copyright">
-      © 2019-2020 <i class="fa fa-heart"></i> liuzhengjieis
+      © 2019-2020 <i class="fa fa-heart"></i> HsxyHao
     </div>
     <div class="poweredby">
-      <div class="power-left">Power By<a href="https://github.com/liuzhengjieis/liuzhengjieis.github.io"> liuzhengjieis</a></div>
-      <div>Copy<a href="https://github.com/iissnan/hexo-theme-next"> Hexo Next Theme</a></div>
+      Powered by <a href="https://baidu.com" target="_blank">liuzhengjie</a>
     </div>
   </footer>
-  <div class="back-to-top" id="back_to_top">
+  
+  
+  <div class="gemini back-to-top" id="back_to_top">
     <i class="fa fa-arrow-up"></i>
+    
     <span class="scrollpercent">
-      <span id="back_to_top_text">100</span>%
+      <span id="back_to_top_text">0</span>%
     </span>
+    
+  </div>
+  
+  
+    <link rel="stylesheet" href="/media/live2d/histoire/css/live2d.css" />
+<div class="box-scale">
+  <div id="landlord" style="left:5px;bottom:0px;" data-key="">
+    <div class="message" style="opacity:0"></div>
+    <canvas id="live2d" width="500" height="560" class="live2d"></canvas>
+    <div class="live_talk_input_body">
+      <div class="live_talk_input_name_body">
+        <input name="name" type="text" class="live_talk_name white_input" id="AIuserName" autocomplete="off" placeholder="你的名字" />
+      </div>
+      <div class="live_talk_input_text_body">
+        <input name="talk" type="text" class="live_talk_talk white_input" id="AIuserText" autocomplete="off" placeholder="要和我聊什么呀？"/>
+        <button type="button" class="live_talk_send_btn" id="talk_send">发送</button>
+      </div>
+    </div>
+    <input name="live_talk" id="live_talk" value="1" type="hidden" />
+    <div class="live_ico_box">
+      <div class="live_ico_item type_info" id="showInfoBtn"></div>
+      <div class="live_ico_item type_talk" id="showTalkBtn"></div>
+      
+      <div class="live_ico_item type_youdu" id="youduButton"></div>
+      <div class="live_ico_item type_quit" id="hideButton"></div>
+      <input name="live_statu_val" id="live_statu_val" value="0" type="hidden" />
+      <audio src="" style="display:none;" id="live2d_bgm" data-bgm="0" preload="none"></audio>
+      <input id="duType" value="douqilai" type="hidden">
+      
+    </div>
   </div>
 </div>
-
+<div id="open_live2d">召唤伊斯特瓦尔</div>
+<script type="text/javascript" src="https://apps.bdimg.com/libs/jquery/1.7.1/jquery.min.js"></script>
+<script>
+var message_Path = '/media/live2d/histoire/';
+let landlord = document.querySelector('#landlord');
+var apiKey = landlord.dataset.key;
+</script>
+<script type="text/javascript" src="/media/live2d/histoire/js/live2d.js"></script>
+<script type="text/javascript" src="/media/live2d/histoire/js/message.js"></script>
+  
+</div>
 <script>
 
+  let sideBarOpen = 'sidebar-open';
   let body = document.body;
-
   let back2Top = document.querySelector('#back_to_top'),
-  back2TopText = document.querySelector('#back_to_top_text');
+  back2TopText = document.querySelector('#back_to_top_text'),
+  drawerBox = document.querySelector('#drawer_box'),
+  rightSideBar = document.querySelector('.sidebar'),
+  viewport = document.querySelector('body');
 
   function scrollAnimation(currentY, targetY) {
    
@@ -823,26 +891,109 @@ I am afraid to say what he thinks.</p>
   }
 
   back2Top.addEventListener("click", function(e) {
-    scrollAnimation(body.scrollTop, 0);
+    scrollAnimation(document.scrollingElement.scrollTop, 0);
     e.stopPropagation();
     return false;
   });
   
   window.addEventListener('scroll', function(e) {
-    let percent = body.scrollTop / (body.scrollHeight - body.clientHeight) * 100;
+    let percent = document.scrollingElement.scrollTop / (document.scrollingElement.scrollHeight - document.scrollingElement.clientHeight) * 100;
     if (percent > 1 && !back2Top.classList.contains('back-top-active')) {
       back2Top.classList.add('back-top-active');
     }
     if (percent == 0) {
       back2Top.classList.remove('back-top-active');
     }
-    back2TopText.textContent = Math.floor(percent);
+    if (back2TopText) {
+      back2TopText.textContent = Math.floor(percent);
+    }
   });
 
-  // 动态调整站点概览高度
-  let sideBar = document.querySelector('.sidebar');
-  let navUl = document.querySelector('#nav_ul');
-  sideBar.style = 'margin-top:' + (navUl.children.length * 42 + 162) + 'px; opacity: 1;';
+  
+  let hasCacu = false;
+  window.onresize = function() {
+    if (window.width > 991) {
+      calcuHeight();
+    } else {
+      hasCacu = false;
+    }
+  }
+
+  function calcuHeight() {
+    // 动态调整站点概览高度
+    if (!hasCacu && back2Top.classList.contains('pisces') || back2Top.classList.contains('gemini')) {
+      let sideBar = document.querySelector('.sidebar');
+      let navUl = document.querySelector('#site_nav');
+      sideBar.style = 'margin-top:' + (navUl.offsetHeight + navUl.offsetTop + 15) + 'px;';
+      hasCacu = true;
+    }
+  }
+  calcuHeight();
+  
+  let open = false, MOTION_TIME = 300, RIGHT_MOVE_DIS = '320px';
+
+  if (drawerBox) {
+    let rightMotions = document.querySelectorAll('.right-motion');
+    let right = drawerBox.classList.contains('right');
+
+    let transitionDir = right ? "transition.slideRightIn" : "transition.slideLeftIn";
+
+    let openProp, closeProp;
+    if (right) {
+      openProp = {
+        paddingRight: RIGHT_MOVE_DIS 
+      };
+      closeProp = {
+        paddingRight: '0px'
+      };
+    } else {
+      openProp = {
+        paddingLeft: RIGHT_MOVE_DIS 
+      };
+      closeProp = {
+        paddingLeft: '0px'
+      };
+    }
+
+    drawerBox.onclick = function() {
+      open = !open;
+      window.Velocity(rightSideBar, 'stop');
+      window.Velocity(viewport, 'stop');
+      window.Velocity(rightMotions, 'stop');
+      if (open) {
+        window.Velocity(rightSideBar, {
+          width: RIGHT_MOVE_DIS
+        }, {
+          duration: MOTION_TIME,
+          begin: function() {
+            window.Velocity(rightMotions, transitionDir,{ });
+          }
+        })
+        window.Velocity(viewport, openProp,{
+          duration: MOTION_TIME
+        });
+      } else {
+        window.Velocity(rightSideBar, {
+          width: '0px'
+        }, {
+          duration: MOTION_TIME,
+          begin: function() {
+            window.Velocity(rightMotions, {
+              opacity: 0
+            });
+          }
+        })
+        window.Velocity(viewport, closeProp ,{
+          duration: MOTION_TIME
+        });
+      }
+      for (let i = 0; i < drawerBox.children.length; i++) {
+        drawerBox.children[i].classList.toggle('muse-line');
+      }
+      drawerBox.classList.toggle(sideBarOpen);
+    }
+  }
+
   // 代码高亮
   hljs.initHighlightingOnLoad();
 </script>
