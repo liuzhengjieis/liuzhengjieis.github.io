@@ -1880,11 +1880,11 @@ body {
         margin: 0 auto;
       }
     @font-face {
-      font-family: 'FZLTZHUNHJW.TTF';
-      src: url('/media/fonts/FZLTZHUNHJW.TTF.ttf');
+      font-family: 'FZLTZHUNHJW';
+      src: url('/media/fonts/FZLTZHUNHJW.ttf');
     }
     * {
-        font-family: 'FZLTZHUNHJW.TTF';
+        font-family: 'FZLTZHUNHJW';
     }body {
       color: #555;
     }
