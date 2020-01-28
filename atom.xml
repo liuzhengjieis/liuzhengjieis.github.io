@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://liuzhengjieis.github.io/</id>
     <title>学习，生活手记</title>
-    <updated>2020-01-26T14:49:54.076Z</updated>
+    <updated>2020-01-28T18:01:16.237Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://liuzhengjieis.github.io/"/>
     <link rel="self" href="https://liuzhengjieis.github.io/atom.xml"/>
@@ -10,6 +10,19 @@
     <logo>https://liuzhengjieis.github.io/images/avatar.png</logo>
     <icon>https://liuzhengjieis.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, 学习，生活手记</rights>
+    <entry>
+        <title type="html"><![CDATA[艺术与设计，第二章：造型与形态]]></title>
+        <id>https://liuzhengjieis.github.io/post/yi-zhu-yu-she-ji-di-er-zhang-zao-xing-yu-xing-tai</id>
+        <link href="https://liuzhengjieis.github.io/post/yi-zhu-yu-she-ji-di-er-zhang-zao-xing-yu-xing-tai">
+        </link>
+        <updated>2020-01-28T15:17:15.000Z</updated>
+        <summary type="html"><![CDATA[<p>人类对形态的感知和掌握经历了数十万年乃至上百万年的历程，人类如今发达的造型能力和对形态的认识正式上百万年来打制石器的劳作、造物所获得的必然结果和回报。可以说，从造型到造器，人类完成了一个个飞跃，新的设计、新的造物正是建立在这一个基础上的。</p>
+<figure data-type="image" tabindex="1"><img src="https://mir-s3-cdn-cf.behance.net/project_modules/fs/b2b20987145703.5dc44c1379ee3.jpg" alt="" loading="lazy"></figure>
+]]></summary>
+        <content type="html"><![CDATA[<p>人类对形态的感知和掌握经历了数十万年乃至上百万年的历程，人类如今发达的造型能力和对形态的认识正式上百万年来打制石器的劳作、造物所获得的必然结果和回报。可以说，从造型到造器，人类完成了一个个飞跃，新的设计、新的造物正是建立在这一个基础上的。</p>
+<figure data-type="image" tabindex="1"><img src="https://mir-s3-cdn-cf.behance.net/project_modules/fs/b2b20987145703.5dc44c1379ee3.jpg" alt="" loading="lazy"></figure>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[艺术与设计，第一章：“纯艺术”与“实用艺术”]]></title>
         <id>https://liuzhengjieis.github.io/post/lesslessyi-zhu-yu-she-ji-greatergreater-di-yi-zhang</id>
@@ -145,19 +158,6 @@ I am afraid to say what he thinks.</p>
 </blockquote>
 <p>句子中be afraid为半助动词，意为“害怕”，与不定式to say构成复合谓语。<br>
 半助动词的作用与副词有点相似，但又有所区别。副词的作用是加强描绘谓语动词，而半助动词与谓语动词在一起构成一个有“属性说明”的动作。</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[【毛概 · 毛思想】毛泽东思想的内容和历史地位]]></title>
-        <id>https://liuzhengjieis.github.io/post/mao-ze-dong-si-xiang-de-nei-rong-he-li-shi-di-wei</id>
-        <link href="https://liuzhengjieis.github.io/post/mao-ze-dong-si-xiang-de-nei-rong-he-li-shi-di-wei">
-        </link>
-        <updated>2019-12-16T15:01:36.000Z</updated>
-        <summary type="html"><![CDATA[<p>毛泽东思想是马克思主义中国化的第一个重大理论成果，是马克思列宁主义在中国的运用和发展，是被实践证明了的关于中国革命和建设的正确的理论原则和经验总结，是中国共产党集体的智慧结晶，是党必须长期坚持的指导思想。<br>
-<img src="http://y3.ifengimg.com/a/2014_16/33d3df7c7461c37.jpg" alt="毛泽东" loading="lazy"></p>
-]]></summary>
-        <content type="html"><![CDATA[<p>毛泽东思想是马克思主义中国化的第一个重大理论成果，是马克思列宁主义在中国的运用和发展，是被实践证明了的关于中国革命和建设的正确的理论原则和经验总结，是中国共产党集体的智慧结晶，是党必须长期坚持的指导思想。<br>
-<img src="http://y3.ifengimg.com/a/2014_16/33d3df7c7461c37.jpg" alt="毛泽东" loading="lazy"></p>
 ]]></content>
     </entry>
 </feed>
