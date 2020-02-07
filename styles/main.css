@@ -1871,20 +1871,20 @@ blockquote:before {
 body {
       background-color: #eee;
     }.header {
-        width: 960px;
+        width: 1100px;
         margin: 0 auto;
       }
 
       .main-continer {
-        width: 960px;
+        width: 1100px;
         margin: 0 auto;
       }
     @font-face {
-      font-family: 'FZLTZHUNHJW';
-      src: url('/media/fonts/FZLTZHUNHJW.ttf');
+      font-family: 'SourceHanSansCN-Normal-2';
+      src: url('/media/fonts/SourceHanSansCN-Normal-2.ttf');
     }
     * {
-        font-family: 'FZLTZHUNHJW';
+        font-family: 'SourceHanSansCN-Normal-2';
     }body {
       color: #555;
     }

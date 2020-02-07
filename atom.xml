@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://liuzhengjieis.github.io/</id>
     <title>😂学习，生活手记</title>
-    <updated>2020-01-29T08:09:50.172Z</updated>
+    <updated>2020-02-07T09:34:54.437Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://liuzhengjieis.github.io/"/>
     <link rel="self" href="https://liuzhengjieis.github.io/atom.xml"/>
@@ -10,6 +10,19 @@
     <logo>https://liuzhengjieis.github.io/images/avatar.png</logo>
     <icon>https://liuzhengjieis.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, 😂学习，生活手记</rights>
+    <entry>
+        <title type="html"><![CDATA[艺术系统——艺术创作过程]]></title>
+        <id>https://liuzhengjieis.github.io/post/yi-zhu-xi-tong-yi-zhu-chuang-zuo-guo-cheng</id>
+        <link href="https://liuzhengjieis.github.io/post/yi-zhu-xi-tong-yi-zhu-chuang-zuo-guo-cheng">
+        </link>
+        <updated>2020-02-07T09:25:12.000Z</updated>
+        <summary type="html"><![CDATA[<p> 艺术创作活动是人类特有的一种高级的精神活动和实践活动。它是指艺术家在创作欲望的推动下，运用一定的艺术语言和艺术手法，将自己的情感思想和审美意识物态化为具体的，生动的，可感的艺术形象。<br>
+艺术创作的过程千变万化、丰富多样。但从总体上看，艺术创作可以相对地分为<strong>艺术体验，艺术构思，艺术传达</strong>三个部分。</p>
+]]></summary>
+        <content type="html"><![CDATA[<p> 艺术创作活动是人类特有的一种高级的精神活动和实践活动。它是指艺术家在创作欲望的推动下，运用一定的艺术语言和艺术手法，将自己的情感思想和审美意识物态化为具体的，生动的，可感的艺术形象。<br>
+艺术创作的过程千变万化、丰富多样。但从总体上看，艺术创作可以相对地分为<strong>艺术体验，艺术构思，艺术传达</strong>三个部分。</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[艺术与设计，第二章：造物与造型]]></title>
         <id>https://liuzhengjieis.github.io/post/yi-zhu-yu-she-ji-di-er-zhang-zao-xing-yu-xing-tai</id>
@@ -131,33 +144,6 @@
 <p>时态可分为“时”和“态”，即时间和状态；时间为现在时、过去时、将来时。状态为一般态、进行态、完成态。</p>
 <p>一般的时态都是时间和状态构成，但也有时和时，态和态的构成，那就是：过去将来时、完成进行态。这里把时态分为<strong>一级时态</strong>和<strong>二级时态</strong><br>
 <img src="https://liuzhengjieis.github.io//post-images/1577894947292.jpg" alt="English" loading="lazy"></p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[【动词】半助动词]]></title>
-        <id>https://liuzhengjieis.github.io/post/dong-ci-ban-zhu-dong-ci</id>
-        <link href="https://liuzhengjieis.github.io/post/dong-ci-ban-zhu-dong-ci">
-        </link>
-        <updated>2019-12-22T14:46:45.000Z</updated>
-        <summary type="html"><![CDATA[<h1 id="何为半助动词">何为半助动词？</h1>
-<p>所谓半助动词，是一些介于实义动词与助动词之间的表达方式，必须和不定式连用构成复合谓语，才能表达完整的意思。<br>
-例如表达下面这个句子：</p>
-<blockquote>
-<p>我害怕说出自己的想法<br>
-I am afraid to say what he thinks.</p>
-</blockquote>
-<p>句子中be afraid为半助动词，意为“害怕”，与不定式to say构成复合谓语。<br>
-半助动词的作用与副词有点相似，但又有所区别。副词的作用是加强描绘谓语动词，而半助动词与谓语动词在一起构成一个有“属性说明”的动作。</p>
-]]></summary>
-        <content type="html"><![CDATA[<h1 id="何为半助动词">何为半助动词？</h1>
-<p>所谓半助动词，是一些介于实义动词与助动词之间的表达方式，必须和不定式连用构成复合谓语，才能表达完整的意思。<br>
-例如表达下面这个句子：</p>
-<blockquote>
-<p>我害怕说出自己的想法<br>
-I am afraid to say what he thinks.</p>
-</blockquote>
-<p>句子中be afraid为半助动词，意为“害怕”，与不定式to say构成复合谓语。<br>
-半助动词的作用与副词有点相似，但又有所区别。副词的作用是加强描绘谓语动词，而半助动词与谓语动词在一起构成一个有“属性说明”的动作。</p>
 ]]></content>
     </entry>
 </feed>
