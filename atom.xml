@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://liuzhengjieis.github.io/</id>
     <title>😂学习，生活手记</title>
-    <updated>2020-02-08T04:34:58.129Z</updated>
+    <updated>2020-02-08T16:34:26.001Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://liuzhengjieis.github.io/"/>
     <link rel="self" href="https://liuzhengjieis.github.io/atom.xml"/>
@@ -10,6 +10,17 @@
     <logo>https://liuzhengjieis.github.io/images/avatar.png</logo>
     <icon>https://liuzhengjieis.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, 😂学习，生活手记</rights>
+    <entry>
+        <title type="html"><![CDATA[艺术总论Ⅰ——艺术的本质与特征]]></title>
+        <id>https://liuzhengjieis.github.io/post/yishuzonglun1</id>
+        <link href="https://liuzhengjieis.github.io/post/yishuzonglun1">
+        </link>
+        <updated>2020-02-08T07:04:14.000Z</updated>
+        <summary type="html"><![CDATA[<p>在我们人类的社会生活中，审美是无处不在的。我们常常说一件事物是美的，那么这种美到底是什么？我们为什么会说他/它是美的呢？这是从小困扰我的问题。为什么我们会喜欢画画，喜欢在纸张上描绘我们所看到的事物？是本能还是后天教育？黑格尔在他的《美学》里提到：“美是理念的感性呈现”，他认为艺术是用感性的形式来表现理性的世界的活动，艺术的内容和形式是分不开的，这个看法在一段时间内得到了广泛的认可。这篇文章主要是我学习彭吉象的《艺术概论》的知识点概括，并非原创文章。</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>在我们人类的社会生活中，审美是无处不在的。我们常常说一件事物是美的，那么这种美到底是什么？我们为什么会说他/它是美的呢？这是从小困扰我的问题。为什么我们会喜欢画画，喜欢在纸张上描绘我们所看到的事物？是本能还是后天教育？黑格尔在他的《美学》里提到：“美是理念的感性呈现”，他认为艺术是用感性的形式来表现理性的世界的活动，艺术的内容和形式是分不开的，这个看法在一段时间内得到了广泛的认可。这篇文章主要是我学习彭吉象的《艺术概论》的知识点概括，并非原创文章。</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[艺术系统——艺术创作过程]]></title>
         <id>https://liuzhengjieis.github.io/post/yi-zhu-xi-tong-yi-zhu-chuang-zuo-guo-cheng</id>
@@ -38,8 +49,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[艺术与设计，第一章：“纯艺术”与“实用艺术”]]></title>
-        <id>https://liuzhengjieis.github.io/post/lesslessyi-zhu-yu-she-ji-greatergreater-di-yi-zhang</id>
-        <link href="https://liuzhengjieis.github.io/post/lesslessyi-zhu-yu-she-ji-greatergreater-di-yi-zhang">
+        <id>https://liuzhengjieis.github.io/post/yishuyusheji1</id>
+        <link href="https://liuzhengjieis.github.io/post/yishuyusheji1">
         </link>
         <updated>2020-01-07T11:01:21.000Z</updated>
         <summary type="html"><![CDATA[<p>黑格尔说过：“艺术类型不过是内容和形象之间的各种不同的关系。”是的，艺术是一个错综复杂现象，既有精神性的产品，也有包括精神与物质相结合的产品，所以艺术必然会有纯艺术和实用艺术。<br>
@@ -127,23 +138,6 @@
         <summary type="html"><![CDATA[<figure data-type="image" tabindex="1"><img src="https://ichef.bbci.co.uk/news/624/cpsprodpb/DF18/production/_104721175_gettyimages-515575018.jpg" alt="邓小平" loading="lazy"></figure>
 ]]></summary>
         <content type="html"><![CDATA[<figure data-type="image" tabindex="1"><img src="https://ichef.bbci.co.uk/news/624/cpsprodpb/DF18/production/_104721175_gettyimages-515575018.jpg" alt="邓小平" loading="lazy"></figure>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[【动词】时态]]></title>
-        <id>https://liuzhengjieis.github.io/post/ming-ci-shi-tai</id>
-        <link href="https://liuzhengjieis.github.io/post/ming-ci-shi-tai">
-        </link>
-        <updated>2019-12-23T10:38:39.000Z</updated>
-        <summary type="html"><![CDATA[<p>时态可以看作是表示动作时间和状态的一种结构，由固定的助动词或分词构成。每个句子都会存在时态的表达，因为时态是英语最为常用的句子结构。</p>
-<p>时态可分为“时”和“态”，即时间和状态；时间为现在时、过去时、将来时。状态为一般态、进行态、完成态。</p>
-<p>一般的时态都是时间和状态构成，但也有时和时，态和态的构成，那就是：过去将来时、完成进行态。这里把时态分为<strong>一级时态</strong>和<strong>二级时态</strong><br>
-<img src="https://liuzhengjieis.github.io//post-images/1577894947292.jpg" alt="English" loading="lazy"></p>
-]]></summary>
-        <content type="html"><![CDATA[<p>时态可以看作是表示动作时间和状态的一种结构，由固定的助动词或分词构成。每个句子都会存在时态的表达，因为时态是英语最为常用的句子结构。</p>
-<p>时态可分为“时”和“态”，即时间和状态；时间为现在时、过去时、将来时。状态为一般态、进行态、完成态。</p>
-<p>一般的时态都是时间和状态构成，但也有时和时，态和态的构成，那就是：过去将来时、完成进行态。这里把时态分为<strong>一级时态</strong>和<strong>二级时态</strong><br>
-<img src="https://liuzhengjieis.github.io//post-images/1577894947292.jpg" alt="English" loading="lazy"></p>
 ]]></content>
     </entry>
 </feed>
