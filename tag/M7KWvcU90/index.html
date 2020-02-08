@@ -1,468 +1,169 @@
-<!DOCTYPE html>
-<html>
-  <head>
-      <meta charset="UTF-8"/>
-<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
 <title>😂学习，生活手记</title>
-<meta name="keywords" content="Gridea静态个人博客">
-<meta name="description" content="🙋‍♂️欢迎来到我的个人空间">
-<link rel="shortcut icon" href="https://liuzhengjieis.github.io//favicon.ico?v=1581068910998">
+<link rel="shortcut icon" href="https://liuzhengjieis.github.io//favicon.ico">
+<link href="https://cdn.jsdelivr.net/npm/remixicon@2.2.0/fonts/remixicon.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.7.2/animate.min.css">
+<link rel="stylesheet" href="https://liuzhengjieis.github.io//media/css/tailwind.css">
 <link rel="stylesheet" href="https://liuzhengjieis.github.io//styles/main.css">
+<link rel="alternate" type="application/atom+xml" title="😂学习，生活手记 - Atom Feed" href="https://liuzhengjieis.github.io//atom.xml">
 
-<link rel="stylesheet" href="/media/css/gemini.css">
+    
 
-<link rel="stylesheet" href="/media/fonts/font-awesome.css">
-<link href="//fonts.googleapis.com/css?family=Monda:300,300italic,400,400italic,700,700italic|Roboto Slab:300,300italic,400,400italic,700,700italic|Rosario:300,300italic,400,400italic,700,700italic|PT Mono:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext" rel="stylesheet" type="text/css">
+  <meta name="description" content="🙋‍♂️欢迎来到我的个人空间" />
+</head>
+<body>
+  <div class="antialiased flex flex-col min-h-screen" id="app">
 
-<script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/velocity-animate@1.5.0/velocity.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/velocity-animate@1.5.0/velocity.ui.min.js"></script>
-
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.css" integrity="sha384-zB1R0rpPzHqg7Kpt0Aljp8JPLqbXI3bhnPWROx27a9N0Ll6ZP/+DiW/UqRcLbRjq" crossorigin="anonymous">
-<script defer src="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.js" integrity="sha384-y23I5Q6l+B6vatafAwxRu/0oK/79VlbSz7Q9aiSZUvyWYIYsd+qj+o24G5ZU2zJz" crossorigin="anonymous"></script>
-<script defer src="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/contrib/auto-render.min.js" integrity="sha384-kWPLUVMOks5AQFrykwIup5lo0m3iMkkHrD0uJ4H5cjeGihAutqP0yW0J6dpFiVkI" crossorigin="anonymous"
-    onload="renderMathInElement(document.body);"></script>
-  </head>
-  <body>
-    <div class="head-top-line"></div>
-    <div class="header-box">
-      
-<div class=" gemini">
-  <header class="header bg-color ">
-    <div class="blog-header box-shadow-wrapper bg-color " id="header">
-      <div class="nav-toggle" id="nav_toggle">
-        <div class="toggle-box">
-          <div class="line line-top"></div>
-          <div class="line line-center"></div>
-          <div class="line line-bottom"></div>
-        </div>
-      </div>
-      <div class="site-meta">       
-        <div class="site-title">
-          
-            <a href="/" class="brand">
-              <span>😂学习，生活手记</span>
-            </a>  
-          
-        </div>
-        
-          <p class="subtitle">艺术源于体验</p>
-        
-      </div>
-      <nav class="site-nav" id="site_nav">
-        <ul id="nav_ul">
-          
-            <li class="nav-item ">
-              
-                <a href="https://liuzhengjieis.github.io/tags">
-                  <i class="fa fa-"></i> 标签
-                </a>
-              
-            </li>
-          
-            <li class="nav-item ">
-              
-                <a href="https://liuzhengjieis.github.io/">
-                  <i class="fa fa-"></i> 首页
-                </a>
-              
-            </li>
-          
-            <li class="nav-item ">
-              
-                <a href="https://liuzhengjieis.github.io//post/about/">
-                  <i class="fa fa-"></i> 关于
-                </a>
-              
-            </li>
-          
-          <li class="nav-item">
-            <a>
-              <i class="fa fa-search"></i> 搜索
-            </a>
-          </li>
-        </ul>
-      </nav>
+    <div class="nav py-3 md:py-8 fixed w-full z-10 bg-gray-50 dark:bg-gray-700 transition-all duration-300" :class="{ 'scroll': scrolled }">
+  <div class="flex justify-end px-4">
+    <div class="w-8 h-8 flex justify-center items-center rounded-full md:hidden" @click="showMenu = !showMenu">
+      <i class="ri-close-line" v-show="showMenu"></i>
+      <i class="ri-menu-3-line" v-show="!showMenu"></i>
     </div>
-  </header>
+  </div>
+  <nav class="max-w-4xl w-full mx-auto text-center flex flex-col md:flex-row justify-center md:block" :class="`${ showMenu ? 'block' : 'hidden' }`">
+    
+      <a href="https://liuzhengjieis.github.io/tags" target="" class="py-2 md:py-1 px-4 mx-4 inline-flex transition font-semibold rounded dark:hover:bg-gray-600 hover:bg-gray-200">
+        标签
+      </a>
+    
+      <a href="https://liuzhengjieis.github.io/" target="" class="py-2 md:py-1 px-4 mx-4 inline-flex transition font-semibold rounded dark:hover:bg-gray-600 hover:bg-gray-200">
+        首页
+      </a>
+    
+      <a href="https://liuzhengjieis.github.io//post/about/" target="" class="py-2 md:py-1 px-4 mx-4 inline-flex transition font-semibold rounded dark:hover:bg-gray-600 hover:bg-gray-200">
+        关于
+      </a>
+    
+    <a href="https://liuzhengjieis.github.io//atom.xml" target="_blank" class="py-2 md:py-1 px-4 mx-4 inline-flex transition font-semibold rounded dark:hover:bg-gray-600 hover:bg-gray-200">
+      RSS
+    </a>
+  </nav>
 </div>
 
-<script type="text/javascript"> 
- 
-  let showNav = true;
-
-  let navToggle = document.querySelector('#nav_toggle'),
-  siteNav = document.querySelector('#site_nav');
-  
-  function navClick() {
-    let sideBar = document.querySelector('.sidebar');
-    let navUl = document.querySelector('#nav_ul');
-    navToggle.classList.toggle('nav-toggle-active');
-    siteNav.classList.toggle('nav-menu-active');
-    if (siteNav.classList.contains('nav-menu-active')) {
-      siteNav.style = "height: " + (navUl.children.length * 42) +"px !important";
-    } else {
-      siteNav.style = "";
-    }
-  }
-
-  navToggle.addEventListener('click',navClick);  
-</script>
-    </div>
-    <div class="main-continer">
-      
-      <div class="section-layout  gemini">
-        <div class="section-layout-wrapper">
-          <div class="sidebar">
-    
-<div class="sidebar-wrapper box-shadow-wrapper bg-color">
-  <div class="sidebar-item">
-    <img class="site-author-image right-motion" src="https://liuzhengjieis.github.io//images/avatar.png"/>
-    <p class="site-author-name">😂学习，生活手记</p>
-    <p class="site-description right-motion">学习的归纳与总结📝</p>
-  </div>
-  <div class="sidebar-item side-item-stat right-motion">
-    <div class="sidebar-item-box">
-      <a href="/archives/">
+    <div class="max-w-4xl w-full mx-auto pt-32">
+      <h1 class="text-2xl font-bold pb-8 flex justify-center items-center">
+        <i class="ri-hashtag"></i>
+        英语
+      </h1>
+      <div class="shadow-box bg-white dark:bg-gray-600 border-gray-300 rounded-none md:rounded-lg -mx-1 md:mx-0 md:px-0">
         
-        <span class="site-item-stat-count">16</span>
-        <span class="site-item-stat-name">文章</span>
+  <div class="p-8 border-b border-gray-200 dark:border-gray-700 flex relative overflow-hidden flex-col md:flex-row animated fadeIn">
+    
+    <div class="flex-1 order-2 md:order-1">
+      <h2 class="text-2xl font-semibold mb-4">
+        <a href="https://liuzhengjieis.github.io/post/ju-fa-xu-ni-yu-qi-de-ying-yong" class="text-gray-700 dark:text-gray-200 border-b-2 border-dotted border-gray-200 dark:border-gray-400 dark:hover:border-gray-200 hover:border-gray-600 transition-all duration-100">
+          【句法】虚拟语气的应用
+        </a>
+      </h2>
+      <div class="mb-4 text-xs text-gray-500">2020年01月02日</div>
+      <div class="mb-4 text-gray-500 dark:text-gray-300">
+        <h1 id="什么是虚拟语气">什么是虚拟语气？</h1>
+<p>每当我们对一件事情不满意或表示后悔的时候，常常会说：“要不是....我就.......”想吃后悔药，但为时已晚。这个时候，我们通常会说出一个假设，这个假设的句子就是虚拟语气。<br>
+然而，虚拟语气也有时态的变化。根据事实发生的时间，对应虚拟语气的时态，即“现在事实相反”，“过去事实相反”...<br>
+<img src="https://mir-s3-cdn-cf.behance.net/project_modules/fs/3ce5a970897951.5bb313c2ced21.jpg" alt="Pic form behace by Roberts Rurans" loading="lazy"></p>
+
+      </div>
+      <a href="https://liuzhengjieis.github.io/post/ju-fa-xu-ni-yu-qi-de-ying-yong" class="btn">
+        看完它
       </a>
     </div>
-    <div class="sidebar-item-box">
-      <a href="">
-        <span class="site-item-stat-count">4</span>
-        <span class="site-item-stat-name">分类</span>
+    
+  </div>
+
+  <div class="p-8 border-b border-gray-200 dark:border-gray-700 flex relative overflow-hidden flex-col md:flex-row animated fadeIn">
+    
+    <div class="flex-1 order-2 md:order-1">
+      <h2 class="text-2xl font-semibold mb-4">
+        <a href="https://liuzhengjieis.github.io/post/ming-ci-shi-tai" class="text-gray-700 dark:text-gray-200 border-b-2 border-dotted border-gray-200 dark:border-gray-400 dark:hover:border-gray-200 hover:border-gray-600 transition-all duration-100">
+          【动词】时态
+        </a>
+      </h2>
+      <div class="mb-4 text-xs text-gray-500">2019年12月23日</div>
+      <div class="mb-4 text-gray-500 dark:text-gray-300">
+        <p>时态可以看作是表示动作时间和状态的一种结构，由固定的助动词或分词构成。每个句子都会存在时态的表达，因为时态是英语最为常用的句子结构。</p>
+<p>时态可分为“时”和“态”，即时间和状态；时间为现在时、过去时、将来时。状态为一般态、进行态、完成态。</p>
+<p>一般的时态都是时间和状态构成，但也有时和时，态和态的构成，那就是：过去将来时、完成进行态。这里把时态分为<strong>一级时态</strong>和<strong>二级时态</strong><br>
+<img src="https://liuzhengjieis.github.io//post-images/1577894947292.jpg" alt="English" loading="lazy"></p>
+
+      </div>
+      <a href="https://liuzhengjieis.github.io/post/ming-ci-shi-tai" class="btn">
+        看完它
       </a>
     </div>
-    <div class="sidebar-item-box">
-      <a href="/tags/">
-        <span class="site-item-stat-count">4</span>
-        <span class="site-item-stat-name">标签</span>
+    
+  </div>
+
+  <div class="p-8 border-b border-gray-200 dark:border-gray-700 flex relative overflow-hidden flex-col md:flex-row animated fadeIn">
+    
+    <div class="flex-1 order-2 md:order-1">
+      <h2 class="text-2xl font-semibold mb-4">
+        <a href="https://liuzhengjieis.github.io/post/dong-ci-ban-zhu-dong-ci" class="text-gray-700 dark:text-gray-200 border-b-2 border-dotted border-gray-200 dark:border-gray-400 dark:hover:border-gray-200 hover:border-gray-600 transition-all duration-100">
+          【动词】半助动词
+        </a>
+      </h2>
+      <div class="mb-4 text-xs text-gray-500">2019年12月22日</div>
+      <div class="mb-4 text-gray-500 dark:text-gray-300">
+        <h1 id="何为半助动词">何为半助动词？</h1>
+<p>所谓半助动词，是一些介于实义动词与助动词之间的表达方式，必须和不定式连用构成复合谓语，才能表达完整的意思。<br>
+例如表达下面这个句子：</p>
+<blockquote>
+<p>我害怕说出自己的想法<br>
+I am afraid to say what he thinks.</p>
+</blockquote>
+<p>句子中be afraid为半助动词，意为“害怕”，与不定式to say构成复合谓语。<br>
+半助动词的作用与副词有点相似，但又有所区别。副词的作用是加强描绘谓语动词，而半助动词与谓语动词在一起构成一个有“属性说明”的动作。</p>
+
+      </div>
+      <a href="https://liuzhengjieis.github.io/post/dong-ci-ban-zhu-dong-ci" class="btn">
+        看完它
       </a>
     </div>
+    
   </div>
-  
-    
-      <div class="sidebar-item">
-        <span class="site-item-rss">
-            <i class="fa fa-rss"></i>
-            <a href="https://liuzhengjieis.github.io//atom.xml" target="_blank">RSS</a>
-        </span>
-      </div>
-    
-  
-  
-    <div class="sidebar-item sidebar-item-social">
-      <div class="social-item">
-          
-            <a href="https://github.com/liuzhengjieis/liuzhengjieis.github.io">
-              <i class="fa fa-github-alt"></i> Github
-            </a>
-          
-          
-          
-          
-          
-          
-          
-      </div>
-    </div>
-  
 
-</div>
-</div>
-            <div class="section-box tag-line">
-              <div class="box-shadow-wrapper">
-                <div class="bg-color">
-                  <section class="section posts-expand">
-                    <div class="padding-wrapper">
-  <div class="tag-timeline-box">
-    <div class="tag-timeline-wrapper">
-      <div class="tag-timeline-title">
-        <h2>
-          英语
-          <small>标签</small>
-        </h2>
-      </div>
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-            <a href="https://liuzhengjieis.github.io/post/ju-fa-xu-ni-yu-qi-de-ying-yong">
-              <div class="motion-warpper">
-                <div class="tag-post-node">
-                  <h1>
-                    01月02日
-                    <small>【句法】虚拟语气的应用</small>
-                  </h1>
-                </div>  
-              </div>
-            </a>
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-            <a href="https://liuzhengjieis.github.io/post/ming-ci-shi-tai">
-              <div class="motion-warpper">
-                <div class="tag-post-node">
-                  <h1>
-                    12月23日
-                    <small>【动词】时态</small>
-                  </h1>
-                </div>  
-              </div>
-            </a>
-          
-        
-      
-        
-          
-            <a href="https://liuzhengjieis.github.io/post/dong-ci-ban-zhu-dong-ci">
-              <div class="motion-warpper">
-                <div class="tag-post-node">
-                  <h1>
-                    12月22日
-                    <small>【动词】半助动词</small>
-                  </h1>
-                </div>  
-              </div>
-            </a>
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-            <a href="https://liuzhengjieis.github.io/post/00001">
-              <div class="motion-warpper">
-                <div class="tag-post-node">
-                  <h1>
-                    06月30日
-                    <small>【词汇】名词的单数形式变复数形式的不规则变化</small>
-                  </h1>
-                </div>  
-              </div>
-            </a>
-          
-        
-      
-        
-      
-    </div>
-  </div>
-</div>
-                  </section>
-                </div>
-              </div>
-          </div>
-        </div>
-      </div>
-      <div class="footer-box">
-  <footer class="footer">
-    <div class="copyright">
-      © 2019-2020 <i class="fa fa-heart"></i> HsxyHao
-    </div>
-    <div class="poweredby">
-      Powered by <a href="https://baidu.com" target="_blank">liuzhengjie</a>
-    </div>
-  </footer>
-  
-  
-  <div class="gemini back-to-top" id="back_to_top">
-    <i class="fa fa-arrow-up"></i>
+  <div class="p-8 border-b border-gray-200 dark:border-gray-700 flex relative overflow-hidden flex-col md:flex-row animated fadeIn">
     
-    <span class="scrollpercent">
-      <span id="back_to_top_text">0</span>%
-    </span>
+    <div class="flex-1 order-2 md:order-1">
+      <h2 class="text-2xl font-semibold mb-4">
+        <a href="https://liuzhengjieis.github.io/post/00001" class="text-gray-700 dark:text-gray-200 border-b-2 border-dotted border-gray-200 dark:border-gray-400 dark:hover:border-gray-200 hover:border-gray-600 transition-all duration-100">
+          【词汇】名词的单数形式变复数形式的不规则变化
+        </a>
+      </h2>
+      <div class="mb-4 text-xs text-gray-500">2019年06月30日</div>
+      <div class="mb-4 text-gray-500 dark:text-gray-300">
+        单复数形式相同的名词：
+
+trousers（裤子）
+chinese、japanese
+police（警察）
+cattle（牛）
+deer（鹿）
+sheep（羊）
+fish（有时可以用作复数，说明鱼的种类）
+people（有时可以用复数，表示...
+      </div>
+      <a href="https://liuzhengjieis.github.io/post/00001" class="btn">
+        看完它
+      </a>
+    </div>
     
   </div>
   
-  
-    
-  
-</div>
-<script>
+      </div>
 
-  let sideBarOpen = 'sidebar-open';
-  let body = document.body;
-  let back2Top = document.querySelector('#back_to_top'),
-  back2TopText = document.querySelector('#back_to_top_text'),
-  drawerBox = document.querySelector('#drawer_box'),
-  rightSideBar = document.querySelector('.sidebar'),
-  viewport = document.querySelector('body');
+      
+      <footer class="py-12 text-center px-4 md:px-0" v-pre>
+  Powered by <a href="https://baidu.com" target="_blank">liuzhengjie</a>
+</footer>
 
-  function scrollAnimation(currentY, targetY) {
-   
-    let needScrollTop = targetY - currentY
-    let _currentY = currentY
-    setTimeout(() => {
-      const dist = Math.ceil(needScrollTop / 10)
-      _currentY += dist
-      window.scrollTo(_currentY, currentY)
-      if (needScrollTop > 10 || needScrollTop < -10) {
-        scrollAnimation(_currentY, targetY)
-      } else {
-        window.scrollTo(_currentY, targetY)
-      }
-    }, 1)
-  }
-
-  back2Top.addEventListener("click", function(e) {
-    scrollAnimation(document.scrollingElement.scrollTop, 0);
-    e.stopPropagation();
-    return false;
-  });
-  
-  window.addEventListener('scroll', function(e) {
-    let percent = document.scrollingElement.scrollTop / (document.scrollingElement.scrollHeight - document.scrollingElement.clientHeight) * 100;
-    if (percent > 1 && !back2Top.classList.contains('back-top-active')) {
-      back2Top.classList.add('back-top-active');
-    }
-    if (percent == 0) {
-      back2Top.classList.remove('back-top-active');
-    }
-    if (back2TopText) {
-      back2TopText.textContent = Math.floor(percent);
-    }
-  });
-
-  
-  let hasCacu = false;
-  window.onresize = function() {
-    if (window.width > 991) {
-      calcuHeight();
-    } else {
-      hasCacu = false;
-    }
-  }
-
-  function calcuHeight() {
-    // 动态调整站点概览高度
-    if (!hasCacu && back2Top.classList.contains('pisces') || back2Top.classList.contains('gemini')) {
-      let sideBar = document.querySelector('.sidebar');
-      let navUl = document.querySelector('#site_nav');
-      sideBar.style = 'margin-top:' + (navUl.offsetHeight + navUl.offsetTop + 15) + 'px;';
-      hasCacu = true;
-    }
-  }
-  calcuHeight();
-  
-  let open = false, MOTION_TIME = 300, RIGHT_MOVE_DIS = '320px';
-
-  if (drawerBox) {
-    let rightMotions = document.querySelectorAll('.right-motion');
-    let right = drawerBox.classList.contains('right');
-
-    let transitionDir = right ? "transition.slideRightIn" : "transition.slideLeftIn";
-
-    let openProp, closeProp;
-    if (right) {
-      openProp = {
-        paddingRight: RIGHT_MOVE_DIS 
-      };
-      closeProp = {
-        paddingRight: '0px'
-      };
-    } else {
-      openProp = {
-        paddingLeft: RIGHT_MOVE_DIS 
-      };
-      closeProp = {
-        paddingLeft: '0px'
-      };
-    }
-
-    drawerBox.onclick = function() {
-      open = !open;
-      window.Velocity(rightSideBar, 'stop');
-      window.Velocity(viewport, 'stop');
-      window.Velocity(rightMotions, 'stop');
-      if (open) {
-        window.Velocity(rightSideBar, {
-          width: RIGHT_MOVE_DIS
-        }, {
-          duration: MOTION_TIME,
-          begin: function() {
-            window.Velocity(rightMotions, transitionDir,{ });
-          }
-        })
-        window.Velocity(viewport, openProp,{
-          duration: MOTION_TIME
-        });
-      } else {
-        window.Velocity(rightSideBar, {
-          width: '0px'
-        }, {
-          duration: MOTION_TIME,
-          begin: function() {
-            window.Velocity(rightMotions, {
-              opacity: 0
-            });
-          }
-        })
-        window.Velocity(viewport, closeProp ,{
-          duration: MOTION_TIME
-        });
-      }
-      for (let i = 0; i < drawerBox.children.length; i++) {
-        drawerBox.children[i].classList.toggle('muse-line');
-      }
-      drawerBox.classList.toggle(sideBarOpen);
-    }
-  }
-
-  // 代码高亮
-  hljs.initHighlightingOnLoad();
-</script>
     </div>
-  </body>
-  <script src="/media/js/motion.js"></script>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+  <script src="https://liuzhengjieis.github.io//media/scripts/main.js"></script>
+</body>
 </html>

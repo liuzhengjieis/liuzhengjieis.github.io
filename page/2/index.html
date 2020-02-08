@@ -1,224 +1,66 @@
-<!DOCTYPE html>
-<html>
-  <head>
-      <meta charset="UTF-8"/>
-<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
 <title>😂学习，生活手记</title>
-<meta name="keywords" content="Gridea静态个人博客">
-<meta name="description" content="🙋‍♂️欢迎来到我的个人空间">
-<link rel="shortcut icon" href="https://liuzhengjieis.github.io//favicon.ico?v=1581068910998">
+<link rel="shortcut icon" href="https://liuzhengjieis.github.io//favicon.ico">
+<link href="https://cdn.jsdelivr.net/npm/remixicon@2.2.0/fonts/remixicon.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.7.2/animate.min.css">
+<link rel="stylesheet" href="https://liuzhengjieis.github.io//media/css/tailwind.css">
 <link rel="stylesheet" href="https://liuzhengjieis.github.io//styles/main.css">
+<link rel="alternate" type="application/atom+xml" title="😂学习，生活手记 - Atom Feed" href="https://liuzhengjieis.github.io//atom.xml">
 
-<link rel="stylesheet" href="/media/css/gemini.css">
-
-<link rel="stylesheet" href="/media/fonts/font-awesome.css">
-<link href="//fonts.googleapis.com/css?family=Monda:300,300italic,400,400italic,700,700italic|Roboto Slab:300,300italic,400,400italic,700,700italic|Rosario:300,300italic,400,400italic,700,700italic|PT Mono:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext" rel="stylesheet" type="text/css">
-
-<script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/velocity-animate@1.5.0/velocity.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/velocity-animate@1.5.0/velocity.ui.min.js"></script>
-
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.css" integrity="sha384-zB1R0rpPzHqg7Kpt0Aljp8JPLqbXI3bhnPWROx27a9N0Ll6ZP/+DiW/UqRcLbRjq" crossorigin="anonymous">
-<script defer src="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.js" integrity="sha384-y23I5Q6l+B6vatafAwxRu/0oK/79VlbSz7Q9aiSZUvyWYIYsd+qj+o24G5ZU2zJz" crossorigin="anonymous"></script>
-<script defer src="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/contrib/auto-render.min.js" integrity="sha384-kWPLUVMOks5AQFrykwIup5lo0m3iMkkHrD0uJ4H5cjeGihAutqP0yW0J6dpFiVkI" crossorigin="anonymous"
-    onload="renderMathInElement(document.body);"></script>
-  </head>
-  <body>
-    <div class="head-top-line"></div>
-    <div class="header-box">
-      
-<div class=" gemini">
-  <header class="header bg-color ">
-    <div class="blog-header box-shadow-wrapper bg-color " id="header">
-      <div class="nav-toggle" id="nav_toggle">
-        <div class="toggle-box">
-          <div class="line line-top"></div>
-          <div class="line line-center"></div>
-          <div class="line line-bottom"></div>
-        </div>
-      </div>
-      <div class="site-meta">       
-        <div class="site-title">
-          
-            <a href="/" class="brand">
-              <span>😂学习，生活手记</span>
-            </a>  
-          
-        </div>
-        
-          <p class="subtitle">艺术源于体验</p>
-        
-      </div>
-      <nav class="site-nav" id="site_nav">
-        <ul id="nav_ul">
-          
-            <li class="nav-item ">
-              
-                <a href="https://liuzhengjieis.github.io/tags">
-                  <i class="fa fa-"></i> 标签
-                </a>
-              
-            </li>
-          
-            <li class="nav-item ">
-              
-                <a href="https://liuzhengjieis.github.io/">
-                  <i class="fa fa-"></i> 首页
-                </a>
-              
-            </li>
-          
-            <li class="nav-item ">
-              
-                <a href="https://liuzhengjieis.github.io//post/about/">
-                  <i class="fa fa-"></i> 关于
-                </a>
-              
-            </li>
-          
-          <li class="nav-item">
-            <a>
-              <i class="fa fa-search"></i> 搜索
-            </a>
-          </li>
-        </ul>
-      </nav>
-    </div>
-  </header>
-</div>
-
-<script type="text/javascript"> 
- 
-  let showNav = true;
-
-  let navToggle = document.querySelector('#nav_toggle'),
-  siteNav = document.querySelector('#site_nav');
-  
-  function navClick() {
-    let sideBar = document.querySelector('.sidebar');
-    let navUl = document.querySelector('#nav_ul');
-    navToggle.classList.toggle('nav-toggle-active');
-    siteNav.classList.toggle('nav-menu-active');
-    if (siteNav.classList.contains('nav-menu-active')) {
-      siteNav.style = "height: " + (navUl.children.length * 42) +"px !important";
-    } else {
-      siteNav.style = "";
-    }
-  }
-
-  navToggle.addEventListener('click',navClick);  
-</script>
-    </div>
-    <div class="main-continer">
-      
-      <div class="section-layout gemini ">
-        <div class="section-layout-wrapper">
-          <div class="sidebar">
     
-<div class="sidebar-wrapper box-shadow-wrapper bg-color">
-  <div class="sidebar-item">
-    <img class="site-author-image right-motion" src="https://liuzhengjieis.github.io//images/avatar.png"/>
-    <p class="site-author-name">😂学习，生活手记</p>
-    <p class="site-description right-motion">学习的归纳与总结📝</p>
-  </div>
-  <div class="sidebar-item side-item-stat right-motion">
-    <div class="sidebar-item-box">
-      <a href="/archives/">
-        
-        <span class="site-item-stat-count">16</span>
-        <span class="site-item-stat-name">文章</span>
-      </a>
-    </div>
-    <div class="sidebar-item-box">
-      <a href="">
-        <span class="site-item-stat-count">4</span>
-        <span class="site-item-stat-name">分类</span>
-      </a>
-    </div>
-    <div class="sidebar-item-box">
-      <a href="/tags/">
-        <span class="site-item-stat-count">4</span>
-        <span class="site-item-stat-name">标签</span>
-      </a>
+
+  <meta name="description" content="🙋‍♂️欢迎来到我的个人空间" />
+</head>
+<body>
+  <div class="antialiased flex flex-col min-h-screen" id="app">
+
+    <div class="nav py-3 md:py-8 fixed w-full z-10 bg-gray-50 dark:bg-gray-700 transition-all duration-300" :class="{ 'scroll': scrolled }">
+  <div class="flex justify-end px-4">
+    <div class="w-8 h-8 flex justify-center items-center rounded-full md:hidden" @click="showMenu = !showMenu">
+      <i class="ri-close-line" v-show="showMenu"></i>
+      <i class="ri-menu-3-line" v-show="!showMenu"></i>
     </div>
   </div>
-  
+  <nav class="max-w-4xl w-full mx-auto text-center flex flex-col md:flex-row justify-center md:block" :class="`${ showMenu ? 'block' : 'hidden' }`">
     
-      <div class="sidebar-item">
-        <span class="site-item-rss">
-            <i class="fa fa-rss"></i>
-            <a href="https://liuzhengjieis.github.io//atom.xml" target="_blank">RSS</a>
-        </span>
-      </div>
+      <a href="https://liuzhengjieis.github.io/tags" target="" class="py-2 md:py-1 px-4 mx-4 inline-flex transition font-semibold rounded dark:hover:bg-gray-600 hover:bg-gray-200">
+        标签
+      </a>
     
-  
-  
-    <div class="sidebar-item sidebar-item-social">
-      <div class="social-item">
-          
-            <a href="https://github.com/liuzhengjieis/liuzhengjieis.github.io">
-              <i class="fa fa-github-alt"></i> Github
-            </a>
-          
-          
-          
-          
-          
-          
-          
-      </div>
-    </div>
-  
-
-</div>
-</div>
-          <div class="section-box gemini">
-            <section class="section  posts-expand slide-down-in">
-              
-  <article class="post-list-box  post box-shadow-wrapper">
-    <div class="article-wrapper bg-color">
-      <header class="post-header">
-  <h1 class="post-title">
-    <a class="post-title-link" href="https://liuzhengjieis.github.io/post/dong-ci-ban-zhu-dong-ci">
-      【动词】半助动词
+      <a href="https://liuzhengjieis.github.io/" target="" class="py-2 md:py-1 px-4 mx-4 inline-flex transition font-semibold rounded dark:hover:bg-gray-600 hover:bg-gray-200">
+        首页
+      </a>
+    
+      <a href="https://liuzhengjieis.github.io//post/about/" target="" class="py-2 md:py-1 px-4 mx-4 inline-flex transition font-semibold rounded dark:hover:bg-gray-600 hover:bg-gray-200">
+        关于
+      </a>
+    
+    <a href="https://liuzhengjieis.github.io//atom.xml" target="_blank" class="py-2 md:py-1 px-4 mx-4 inline-flex transition font-semibold rounded dark:hover:bg-gray-600 hover:bg-gray-200">
+      RSS
     </a>
-  </h1>
-  <div class="post-meta">
-    
-    <span class="meta-item pc-show">
-      <i class="fa fa-calendar-o"></i>
-      <span>发布于</span>
-      <span>2019年12月22日</span>
-    </span>
-    
-      <span class="meta-item">
-        <span class="post-meta-divider pc-show">|</span>
-        <i class="fa fa-folder-o"></i>
-        <span class="pc-show">分类于</span>
+  </nav>
+</div>
+
+    <div class="max-w-4xl w-full mx-auto pt-32">
+      
+
+      <div class="shadow-box bg-white dark:bg-gray-600 border-gray-300 rounded-none md:rounded-lg -mx-1 md:mx-0 md:px-0">
         
-          
-            <a href="https://liuzhengjieis.github.io/tag/M7KWvcU90">
-              <span>英语</span>
-            </a>
-          
-        
-      </span>
-      <span class="post-meta-divider">|</span>
+  <div class="p-8 border-b border-gray-200 dark:border-gray-700 flex relative overflow-hidden flex-col md:flex-row animated fadeIn">
     
-    <span class="meta-item">
-      <i class="fa fa-clock-o"></i>
-      <span>3分钟</span>
-    </span>
-    <span class="meta-item">
-      <span class="post-meta-divider">|</span>
-      <i class="fa fa-file-word-o"></i>
-      <span>603<span class="pc-show">字数</span></span>
-    </span>
-  </div>
-</header>
-      <div class="post-body">
-        
-          <h1 id="何为半助动词">何为半助动词？</h1>
+    <div class="flex-1 order-2 md:order-1">
+      <h2 class="text-2xl font-semibold mb-4">
+        <a href="https://liuzhengjieis.github.io/post/dong-ci-ban-zhu-dong-ci" class="text-gray-700 dark:text-gray-200 border-b-2 border-dotted border-gray-200 dark:border-gray-400 dark:hover:border-gray-200 hover:border-gray-600 transition-all duration-100">
+          【动词】半助动词
+        </a>
+      </h2>
+      <div class="mb-4 text-xs text-gray-500">2019年12月22日</div>
+      <div class="mb-4 text-gray-500 dark:text-gray-300">
+        <h1 id="何为半助动词">何为半助动词？</h1>
 <p>所谓半助动词，是一些介于实义动词与助动词之间的表达方式，必须和不定式连用构成复合谓语，才能表达完整的意思。<br>
 例如表达下面这个句子：</p>
 <blockquote>
@@ -228,497 +70,165 @@ I am afraid to say what he thinks.</p>
 <p>句子中be afraid为半助动词，意为“害怕”，与不定式to say构成复合谓语。<br>
 半助动词的作用与副词有点相似，但又有所区别。副词的作用是加强描绘谓语动词，而半助动词与谓语动词在一起构成一个有“属性说明”的动作。</p>
 
-        
-        
-        <div class="post-button text-center">
-          <a class="btn" href="https://liuzhengjieis.github.io/post/dong-ci-ban-zhu-dong-ci" rel="contents">
-            阅读全文 »
-          </a>
-        </div>
-        
       </div>
-      
+      <a href="https://liuzhengjieis.github.io/post/dong-ci-ban-zhu-dong-ci" class="btn">
+        看完它
+      </a>
     </div>
-  </article>
-
-  <article class="post-list-box  post box-shadow-wrapper">
-    <div class="article-wrapper bg-color">
-      <header class="post-header">
-  <h1 class="post-title">
-    <a class="post-title-link" href="https://liuzhengjieis.github.io/post/mao-ze-dong-si-xiang-de-nei-rong-he-li-shi-di-wei">
-      【毛概 · 毛思想】毛泽东思想的内容和历史地位
-    </a>
-  </h1>
-  <div class="post-meta">
     
-    <span class="meta-item pc-show">
-      <i class="fa fa-calendar-o"></i>
-      <span>发布于</span>
-      <span>2019年12月16日</span>
-    </span>
-    
-      <span class="meta-item">
-        <span class="post-meta-divider pc-show">|</span>
-        <i class="fa fa-folder-o"></i>
-        <span class="pc-show">分类于</span>
-        
-          
-            <a href="https://liuzhengjieis.github.io/tag/APeweL0PP">
-              <span>毛概理论</span>
-            </a>
-          
-        
-      </span>
-      <span class="post-meta-divider">|</span>
-    
-    <span class="meta-item">
-      <i class="fa fa-clock-o"></i>
-      <span>10分钟</span>
-    </span>
-    <span class="meta-item">
-      <span class="post-meta-divider">|</span>
-      <i class="fa fa-file-word-o"></i>
-      <span>2759<span class="pc-show">字数</span></span>
-    </span>
   </div>
-</header>
-      <div class="post-body">
-        
-          <p>毛泽东思想是马克思主义中国化的第一个重大理论成果，是马克思列宁主义在中国的运用和发展，是被实践证明了的关于中国革命和建设的正确的理论原则和经验总结，是中国共产党集体的智慧结晶，是党必须长期坚持的指导思想。<br>
+
+  <div class="p-8 border-b border-gray-200 dark:border-gray-700 flex relative overflow-hidden flex-col md:flex-row animated fadeIn">
+    
+    <div class="flex-1 order-2 md:order-1">
+      <h2 class="text-2xl font-semibold mb-4">
+        <a href="https://liuzhengjieis.github.io/post/mao-ze-dong-si-xiang-de-nei-rong-he-li-shi-di-wei" class="text-gray-700 dark:text-gray-200 border-b-2 border-dotted border-gray-200 dark:border-gray-400 dark:hover:border-gray-200 hover:border-gray-600 transition-all duration-100">
+          【毛概 · 毛思想】毛泽东思想的内容和历史地位
+        </a>
+      </h2>
+      <div class="mb-4 text-xs text-gray-500">2019年12月16日</div>
+      <div class="mb-4 text-gray-500 dark:text-gray-300">
+        <p>毛泽东思想是马克思主义中国化的第一个重大理论成果，是马克思列宁主义在中国的运用和发展，是被实践证明了的关于中国革命和建设的正确的理论原则和经验总结，是中国共产党集体的智慧结晶，是党必须长期坚持的指导思想。<br>
 <img src="http://y3.ifengimg.com/a/2014_16/33d3df7c7461c37.jpg" alt="毛泽东" loading="lazy"></p>
 
-        
-        
-        <div class="post-button text-center">
-          <a class="btn" href="https://liuzhengjieis.github.io/post/mao-ze-dong-si-xiang-de-nei-rong-he-li-shi-di-wei" rel="contents">
-            阅读全文 »
-          </a>
-        </div>
-        
       </div>
-      
+      <a href="https://liuzhengjieis.github.io/post/mao-ze-dong-si-xiang-de-nei-rong-he-li-shi-di-wei" class="btn">
+        看完它
+      </a>
     </div>
-  </article>
-
-  <article class="post-list-box  post box-shadow-wrapper">
-    <div class="article-wrapper bg-color">
-      <header class="post-header">
-  <h1 class="post-title">
-    <a class="post-title-link" href="https://liuzhengjieis.github.io/post/mao-ze-dong-si-xiang-de-xing-cheng">
-      【毛概 · 毛思想】毛泽东思想的形成
-    </a>
-  </h1>
-  <div class="post-meta">
     
-    <span class="meta-item pc-show">
-      <i class="fa fa-calendar-o"></i>
-      <span>发布于</span>
-      <span>2019年12月16日</span>
-    </span>
-    
-      <span class="meta-item">
-        <span class="post-meta-divider pc-show">|</span>
-        <i class="fa fa-folder-o"></i>
-        <span class="pc-show">分类于</span>
-        
-          
-            <a href="https://liuzhengjieis.github.io/tag/APeweL0PP">
-              <span>毛概理论</span>
-            </a>
-          
-        
-      </span>
-      <span class="post-meta-divider">|</span>
-    
-    <span class="meta-item">
-      <i class="fa fa-clock-o"></i>
-      <span>2分钟</span>
-    </span>
-    <span class="meta-item">
-      <span class="post-meta-divider">|</span>
-      <i class="fa fa-file-word-o"></i>
-      <span>558<span class="pc-show">字数</span></span>
-    </span>
   </div>
-</header>
-      <div class="post-body">
-        
-          
-        
-        
-        <div class="post-button text-center">
-          <a class="btn" href="https://liuzhengjieis.github.io/post/mao-ze-dong-si-xiang-de-xing-cheng" rel="contents">
-            阅读全文 »
-          </a>
-        </div>
-        
-      </div>
-      
-    </div>
-  </article>
 
-  <article class="post-list-box  post box-shadow-wrapper">
-    <div class="article-wrapper bg-color">
-      <header class="post-header">
-  <h1 class="post-title">
-    <a class="post-title-link" href="https://liuzhengjieis.github.io/post/yishugailun">
-      【艺术概论】上篇 艺术总论
-    </a>
-  </h1>
-  <div class="post-meta">
+  <div class="p-8 border-b border-gray-200 dark:border-gray-700 flex relative overflow-hidden flex-col md:flex-row animated fadeIn">
     
-    <span class="meta-item pc-show">
-      <i class="fa fa-calendar-o"></i>
-      <span>发布于</span>
-      <span>2019年12月16日</span>
-    </span>
-    
-      <span class="meta-item">
-        <span class="post-meta-divider pc-show">|</span>
-        <i class="fa fa-folder-o"></i>
-        <span class="pc-show">分类于</span>
-        
-          
-            <a href="https://liuzhengjieis.github.io/tag/iybYEzScb">
-              <span>艺术概论</span>
-            </a>
-          
-        
-      </span>
-      <span class="post-meta-divider">|</span>
-    
-    <span class="meta-item">
-      <i class="fa fa-clock-o"></i>
-      <span>3分钟</span>
-    </span>
-    <span class="meta-item">
-      <span class="post-meta-divider">|</span>
-      <i class="fa fa-file-word-o"></i>
-      <span>849<span class="pc-show">字数</span></span>
-    </span>
-  </div>
-</header>
-      <div class="post-body">
-        
-          
-        
-        
-        <div class="post-button text-center">
-          <a class="btn" href="https://liuzhengjieis.github.io/post/yishugailun" rel="contents">
-            阅读全文 »
-          </a>
-        </div>
-        
-      </div>
-      
-    </div>
-  </article>
-
-  <article class="post-list-box  post box-shadow-wrapper">
-    <div class="article-wrapper bg-color">
-      <header class="post-header">
-  <h1 class="post-title">
-    <a class="post-title-link" href="https://liuzhengjieis.github.io/post/maogai">
-      《毛概》关于每个理论的总结一览
-    </a>
-  </h1>
-  <div class="post-meta">
-    
-    <span class="meta-item pc-show">
-      <i class="fa fa-calendar-o"></i>
-      <span>发布于</span>
-      <span>2019年12月16日</span>
-    </span>
-    
-      <span class="meta-item">
-        <span class="post-meta-divider pc-show">|</span>
-        <i class="fa fa-folder-o"></i>
-        <span class="pc-show">分类于</span>
-        
-          
-            <a href="https://liuzhengjieis.github.io/tag/APeweL0PP">
-              <span>毛概理论</span>
-            </a>
-          
-        
-      </span>
-      <span class="post-meta-divider">|</span>
-    
-    <span class="meta-item">
-      <i class="fa fa-clock-o"></i>
-      <span>3分钟</span>
-    </span>
-    <span class="meta-item">
-      <span class="post-meta-divider">|</span>
-      <i class="fa fa-file-word-o"></i>
-      <span>842<span class="pc-show">字数</span></span>
-    </span>
-  </div>
-</header>
-      <div class="post-body">
-        
-          
-        
-        
-        <div class="post-button text-center">
-          <a class="btn" href="https://liuzhengjieis.github.io/post/maogai" rel="contents">
-            阅读全文 »
-          </a>
-        </div>
-        
-      </div>
-      
-    </div>
-  </article>
-
-  <article class="post-list-box  post box-shadow-wrapper">
-    <div class="article-wrapper bg-color">
-      <header class="post-header">
-  <h1 class="post-title">
-    <a class="post-title-link" href="https://liuzhengjieis.github.io/post/00001">
-      【词汇】名词的单数形式变复数形式的不规则变化
-    </a>
-  </h1>
-  <div class="post-meta">
-    
-    <span class="meta-item pc-show">
-      <i class="fa fa-calendar-o"></i>
-      <span>发布于</span>
-      <span>2019年06月30日</span>
-    </span>
-    
-      <span class="meta-item">
-        <span class="post-meta-divider pc-show">|</span>
-        <i class="fa fa-folder-o"></i>
-        <span class="pc-show">分类于</span>
-        
-          
-            <a href="https://liuzhengjieis.github.io/tag/M7KWvcU90">
-              <span>英语</span>
-            </a>
-          
-        
-      </span>
-      <span class="post-meta-divider">|</span>
-    
-    <span class="meta-item">
-      <i class="fa fa-clock-o"></i>
-      <span>1分钟</span>
-    </span>
-    <span class="meta-item">
-      <span class="post-meta-divider">|</span>
-      <i class="fa fa-file-word-o"></i>
-      <span>126<span class="pc-show">字数</span></span>
-    </span>
-  </div>
-</header>
-      <div class="post-body">
-        
-          
-        
-        
-        <div class="post-button text-center">
-          <a class="btn" href="https://liuzhengjieis.github.io/post/00001" rel="contents">
-            阅读全文 »
-          </a>
-        </div>
-        
-      </div>
-      
-    </div>
-  </article>
-  
-              
-              
-<div class="page bg-color">
-  <ul class="pagination-ul">
-    
-      <li class="pagination-dir">
-        <a href="https://liuzhengjieis.github.io/">
-          <i class="fa fa-angle-left"></i>
+    <div class="flex-1 order-2 md:order-1">
+      <h2 class="text-2xl font-semibold mb-4">
+        <a href="https://liuzhengjieis.github.io/post/mao-ze-dong-si-xiang-de-xing-cheng" class="text-gray-700 dark:text-gray-200 border-b-2 border-dotted border-gray-200 dark:border-gray-400 dark:hover:border-gray-200 hover:border-gray-600 transition-all duration-100">
+          【毛概 · 毛思想】毛泽东思想的形成
         </a>
-      </li>
-    
-    
-      
-        <li class="pagination-li ">
-            <a href="/page/../">
-              1
-            </a>
-        </li>
-      
-        <li class="pagination-li pagination-active">
-            <a href="/page/2">
-              2
-            </a>
-        </li>
-      
-    
-    
-  </ul>
-</div>
-            </section>
-          </div>
-        </div>
+      </h2>
+      <div class="mb-4 text-xs text-gray-500">2019年12月16日</div>
+      <div class="mb-4 text-gray-500 dark:text-gray-300">
+        毛泽东思想的形成
+形成发展的历史条件
+
+俄国十月革命开辟新道路：时代背景
+俄国十月革的胜利，开辟了无产阶级社会主义革命的新时代；马克思主义传入中国，中国从旧的世界资产阶级革命转变为新的世界无产阶级革命。
+经历了第二次世界大战后西方国家对我国...
       </div>
-      <div class="footer-box">
-  <footer class="footer">
-    <div class="copyright">
-      © 2019-2020 <i class="fa fa-heart"></i> HsxyHao
+      <a href="https://liuzhengjieis.github.io/post/mao-ze-dong-si-xiang-de-xing-cheng" class="btn">
+        看完它
+      </a>
     </div>
-    <div class="poweredby">
-      Powered by <a href="https://baidu.com" target="_blank">liuzhengjie</a>
-    </div>
-  </footer>
-  
-  
-  <div class="gemini back-to-top" id="back_to_top">
-    <i class="fa fa-arrow-up"></i>
     
-    <span class="scrollpercent">
-      <span id="back_to_top_text">0</span>%
-    </span>
+  </div>
+
+  <div class="p-8 border-b border-gray-200 dark:border-gray-700 flex relative overflow-hidden flex-col md:flex-row animated fadeIn">
+    
+    <div class="flex-1 order-2 md:order-1">
+      <h2 class="text-2xl font-semibold mb-4">
+        <a href="https://liuzhengjieis.github.io/post/yishugailun" class="text-gray-700 dark:text-gray-200 border-b-2 border-dotted border-gray-200 dark:border-gray-400 dark:hover:border-gray-200 hover:border-gray-600 transition-all duration-100">
+          【艺术概论】上篇 艺术总论
+        </a>
+      </h2>
+      <div class="mb-4 text-xs text-gray-500">2019年12月16日</div>
+      <div class="mb-4 text-gray-500 dark:text-gray-300">
+        懒人目录
+
+艺术的本质
+艺术的特征
+艺术的起源
+艺术的功能
+文化系统与艺术
+
+
+1. 艺术的本质
+究竟什么是艺术？它具有那些基本性质与特点？面对着丰富多彩的艺术种类和艺术作品，人们很早就开始探索这个问题。
+关于艺术的本质的几种看法
+
+客观精...
+      </div>
+      <a href="https://liuzhengjieis.github.io/post/yishugailun" class="btn">
+        看完它
+      </a>
+    </div>
+    
+      <img class="flex-shrink-0 self-start md:ml-4 mb-4 md:mb-0 rounded-sm object-cover featured-img order-1 md:order-2 w-full h-40 md:w-56 md:h-32" loading="lazy" src="https://liuzhengjieis.github.io//post-images/yishugailun.PNG" alt="【艺术概论】上篇 艺术总论">
+    
+  </div>
+
+  <div class="p-8 border-b border-gray-200 dark:border-gray-700 flex relative overflow-hidden flex-col md:flex-row animated fadeIn">
+    
+    <div class="flex-1 order-2 md:order-1">
+      <h2 class="text-2xl font-semibold mb-4">
+        <a href="https://liuzhengjieis.github.io/post/maogai" class="text-gray-700 dark:text-gray-200 border-b-2 border-dotted border-gray-200 dark:border-gray-400 dark:hover:border-gray-200 hover:border-gray-600 transition-all duration-100">
+          《毛概》关于每个理论的总结一览
+        </a>
+      </h2>
+      <div class="mb-4 text-xs text-gray-500">2019年12月16日</div>
+      <div class="mb-4 text-gray-500 dark:text-gray-300">
+        毛泽东思想的含义
+
+毛泽东思想是马克思主义中国化的第一个重大理论成果，是马克思列宁主义的中国的运用和发展，是被实践证明了的关于中国革命和建设的正确的理论原则和经验总结，是中国共产党集体智慧结晶，是党必须长期坚持的指导思想。
+
+新民主主义理论...
+      </div>
+      <a href="https://liuzhengjieis.github.io/post/maogai" class="btn">
+        看完它
+      </a>
+    </div>
+    
+  </div>
+
+  <div class="p-8 border-b border-gray-200 dark:border-gray-700 flex relative overflow-hidden flex-col md:flex-row animated fadeIn">
+    
+    <div class="flex-1 order-2 md:order-1">
+      <h2 class="text-2xl font-semibold mb-4">
+        <a href="https://liuzhengjieis.github.io/post/00001" class="text-gray-700 dark:text-gray-200 border-b-2 border-dotted border-gray-200 dark:border-gray-400 dark:hover:border-gray-200 hover:border-gray-600 transition-all duration-100">
+          【词汇】名词的单数形式变复数形式的不规则变化
+        </a>
+      </h2>
+      <div class="mb-4 text-xs text-gray-500">2019年06月30日</div>
+      <div class="mb-4 text-gray-500 dark:text-gray-300">
+        单复数形式相同的名词：
+
+trousers（裤子）
+chinese、japanese
+police（警察）
+cattle（牛）
+deer（鹿）
+sheep（羊）
+fish（有时可以用作复数，说明鱼的种类）
+people（有时可以用复数，表示...
+      </div>
+      <a href="https://liuzhengjieis.github.io/post/00001" class="btn">
+        看完它
+      </a>
+    </div>
     
   </div>
   
-  
+      </div>
+
+      
+  <div class="my-4 flex justify-between px-4 md:px-0">
     
-  
-</div>
-<script>
+      <a href="https://liuzhengjieis.github.io/" class="btn btn-white">
+        <i class="ri-arrow-left-line mr-4"></i>
+        前一篇
+      </a>
+    
+    
+  </div>
 
-  let sideBarOpen = 'sidebar-open';
-  let body = document.body;
-  let back2Top = document.querySelector('#back_to_top'),
-  back2TopText = document.querySelector('#back_to_top_text'),
-  drawerBox = document.querySelector('#drawer_box'),
-  rightSideBar = document.querySelector('.sidebar'),
-  viewport = document.querySelector('body');
+      <footer class="py-12 text-center px-4 md:px-0" v-pre>
+  Powered by <a href="https://baidu.com" target="_blank">liuzhengjie</a>
+</footer>
 
-  function scrollAnimation(currentY, targetY) {
-   
-    let needScrollTop = targetY - currentY
-    let _currentY = currentY
-    setTimeout(() => {
-      const dist = Math.ceil(needScrollTop / 10)
-      _currentY += dist
-      window.scrollTo(_currentY, currentY)
-      if (needScrollTop > 10 || needScrollTop < -10) {
-        scrollAnimation(_currentY, targetY)
-      } else {
-        window.scrollTo(_currentY, targetY)
-      }
-    }, 1)
-  }
-
-  back2Top.addEventListener("click", function(e) {
-    scrollAnimation(document.scrollingElement.scrollTop, 0);
-    e.stopPropagation();
-    return false;
-  });
-  
-  window.addEventListener('scroll', function(e) {
-    let percent = document.scrollingElement.scrollTop / (document.scrollingElement.scrollHeight - document.scrollingElement.clientHeight) * 100;
-    if (percent > 1 && !back2Top.classList.contains('back-top-active')) {
-      back2Top.classList.add('back-top-active');
-    }
-    if (percent == 0) {
-      back2Top.classList.remove('back-top-active');
-    }
-    if (back2TopText) {
-      back2TopText.textContent = Math.floor(percent);
-    }
-  });
-
-  
-  let hasCacu = false;
-  window.onresize = function() {
-    if (window.width > 991) {
-      calcuHeight();
-    } else {
-      hasCacu = false;
-    }
-  }
-
-  function calcuHeight() {
-    // 动态调整站点概览高度
-    if (!hasCacu && back2Top.classList.contains('pisces') || back2Top.classList.contains('gemini')) {
-      let sideBar = document.querySelector('.sidebar');
-      let navUl = document.querySelector('#site_nav');
-      sideBar.style = 'margin-top:' + (navUl.offsetHeight + navUl.offsetTop + 15) + 'px;';
-      hasCacu = true;
-    }
-  }
-  calcuHeight();
-  
-  let open = false, MOTION_TIME = 300, RIGHT_MOVE_DIS = '320px';
-
-  if (drawerBox) {
-    let rightMotions = document.querySelectorAll('.right-motion');
-    let right = drawerBox.classList.contains('right');
-
-    let transitionDir = right ? "transition.slideRightIn" : "transition.slideLeftIn";
-
-    let openProp, closeProp;
-    if (right) {
-      openProp = {
-        paddingRight: RIGHT_MOVE_DIS 
-      };
-      closeProp = {
-        paddingRight: '0px'
-      };
-    } else {
-      openProp = {
-        paddingLeft: RIGHT_MOVE_DIS 
-      };
-      closeProp = {
-        paddingLeft: '0px'
-      };
-    }
-
-    drawerBox.onclick = function() {
-      open = !open;
-      window.Velocity(rightSideBar, 'stop');
-      window.Velocity(viewport, 'stop');
-      window.Velocity(rightMotions, 'stop');
-      if (open) {
-        window.Velocity(rightSideBar, {
-          width: RIGHT_MOVE_DIS
-        }, {
-          duration: MOTION_TIME,
-          begin: function() {
-            window.Velocity(rightMotions, transitionDir,{ });
-          }
-        })
-        window.Velocity(viewport, openProp,{
-          duration: MOTION_TIME
-        });
-      } else {
-        window.Velocity(rightSideBar, {
-          width: '0px'
-        }, {
-          duration: MOTION_TIME,
-          begin: function() {
-            window.Velocity(rightMotions, {
-              opacity: 0
-            });
-          }
-        })
-        window.Velocity(viewport, closeProp ,{
-          duration: MOTION_TIME
-        });
-      }
-      for (let i = 0; i < drawerBox.children.length; i++) {
-        drawerBox.children[i].classList.toggle('muse-line');
-      }
-      drawerBox.classList.toggle(sideBarOpen);
-    }
-  }
-
-  // 代码高亮
-  hljs.initHighlightingOnLoad();
-</script>
     </div>
-  </body>
-  <script src="/media/js/motion.js"></script>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+  <script src="https://liuzhengjieis.github.io//media/scripts/main.js"></script>
+</body>
+
 </html>
