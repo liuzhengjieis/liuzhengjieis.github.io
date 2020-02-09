@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://liuzhengjieis.github.io/</id>
     <title>😂学习，生活手记</title>
-    <updated>2020-02-08T16:55:33.993Z</updated>
+    <updated>2020-02-09T13:53:20.887Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://liuzhengjieis.github.io/"/>
     <link rel="self" href="https://liuzhengjieis.github.io/atom.xml"/>
@@ -10,6 +10,13 @@
     <logo>https://liuzhengjieis.github.io/images/avatar.png</logo>
     <icon>https://liuzhengjieis.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, 😂学习，生活手记</rights>
+    <entry>
+        <title type="html"><![CDATA[现代设计萌芽时期]]></title>
+        <id>https://liuzhengjieis.github.io/post/xiandaishejimengyashiqi</id>
+        <link href="https://liuzhengjieis.github.io/post/xiandaishejimengyashiqi">
+        </link>
+        <updated>2020-02-09T13:04:46.000Z</updated>
+    </entry>
     <entry>
         <title type="html"><![CDATA[艺术总论Ⅰ——艺术的本质与特征]]></title>
         <id>https://liuzhengjieis.github.io/post/yishuzonglun1</id>
@@ -104,27 +111,18 @@
 ]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[【毛概 · 邓小平理论】邓小平理论的历史地位]]></title>
-        <id>https://liuzhengjieis.github.io/post/mao-gai-deng-xiao-ping-li-lun-deng-xiao-ping-li-lun-de-li-shi-di-wei</id>
-        <link href="https://liuzhengjieis.github.io/post/mao-gai-deng-xiao-ping-li-lun-deng-xiao-ping-li-lun-de-li-shi-di-wei">
-        </link>
-        <updated>2019-12-29T08:10:11.000Z</updated>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[西方近现代设计史]]></title>
-        <id>https://liuzhengjieis.github.io/post/xi-fang-xian-dai-she-ji-shi</id>
-        <link href="https://liuzhengjieis.github.io/post/xi-fang-xian-dai-she-ji-shi">
+        <id>https://liuzhengjieis.github.io/post/xifangxiandaishejishi</id>
+        <link href="https://liuzhengjieis.github.io/post/xifangxiandaishejishi">
         </link>
         <updated>2019-12-26T14:31:31.000Z</updated>
         <summary type="html"><![CDATA[<p>西方设计可以追溯到7500年前，一直到现代。西方设计经历了文艺复兴，工业革命等的大变革，逐渐形成一套完整的设计理论体系。本文以分别以文艺复兴和工业革命为分割点，阐述文艺复兴前后和工业革命前后设计理论和设计风格的变化和发展。</p>
-<figure data-type="image" tabindex="1"><img src="http://file01.16sucai.com/d/file/2013/1014/16e5b26a45259fc3d5f9e91eb3cf9471.jpg" alt="凳子" loading="lazy"></figure>
 ]]></summary>
         <content type="html"><![CDATA[<p>西方设计可以追溯到7500年前，一直到现代。西方设计经历了文艺复兴，工业革命等的大变革，逐渐形成一套完整的设计理论体系。本文以分别以文艺复兴和工业革命为分割点，阐述文艺复兴前后和工业革命前后设计理论和设计风格的变化和发展。</p>
-<figure data-type="image" tabindex="1"><img src="http://file01.16sucai.com/d/file/2013/1014/16e5b26a45259fc3d5f9e91eb3cf9471.jpg" alt="凳子" loading="lazy"></figure>
 ]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[【毛概 · 邓小平理论】邓小平理论回答的基本问题和主要内容]]></title>
+        <title type="html"><![CDATA[政治理论——邓小平理论]]></title>
         <id>https://liuzhengjieis.github.io/post/mao-gai-deng-xiao-ping-li-lun-deng-xiao-ping-li-lun-hui-da-de-ji-ben-wen-ti-he-zhu-yao-nei-rong</id>
         <link href="https://liuzhengjieis.github.io/post/mao-gai-deng-xiao-ping-li-lun-deng-xiao-ping-li-lun-hui-da-de-ji-ben-wen-ti-he-zhu-yao-nei-rong">
         </link>
