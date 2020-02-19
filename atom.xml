@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://liuzhengjieis.github.io/</id>
     <title>😂学习，生活手记</title>
-    <updated>2020-02-17T15:43:35.061Z</updated>
+    <updated>2020-02-19T01:53:59.627Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://liuzhengjieis.github.io/"/>
     <link rel="self" href="https://liuzhengjieis.github.io/atom.xml"/>
@@ -10,6 +10,17 @@
     <logo>https://liuzhengjieis.github.io/images/avatar.png</logo>
     <icon>https://liuzhengjieis.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, 😂学习，生活手记</rights>
+    <entry>
+        <title type="html"><![CDATA[社会主义建设初步探索]]></title>
+        <id>https://liuzhengjieis.github.io/post/she-hui-zhu-yi-jian-she-chu-bu-tan-suo</id>
+        <link href="https://liuzhengjieis.github.io/post/she-hui-zhu-yi-jian-she-chu-bu-tan-suo">
+        </link>
+        <updated>2020-02-19T01:49:21.000Z</updated>
+        <summary type="html"><![CDATA[<p>在“一穷二白”的东方大国建设社会主义，没有先例可循。如同攀登一座人迹罕至的高山。如何回望着段激情而峥嵘的岁月？如何正确把握艰辛探索的理论成果？如何认识这一时期与改革开放新时期的关系？</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>在“一穷二白”的东方大国建设社会主义，没有先例可循。如同攀登一座人迹罕至的高山。如何回望着段激情而峥嵘的岁月？如何正确把握艰辛探索的理论成果？如何认识这一时期与改革开放新时期的关系？</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[社会主义改造理论]]></title>
         <id>https://liuzhengjieis.github.io/post/she-hui-zhu-yi-gai-zao-li-lun</id>
@@ -111,19 +122,6 @@
 ]]></summary>
         <content type="html"><![CDATA[<p><strong>文艺复兴建筑</strong>是公元14识记在意大利发生的文艺复兴时期兴起的建筑风格，是基于对神权之上的批判和对人文主义的肯定。在这一时期出现了建筑师这个职业，并且通过继承罗马的古典比例美来塑造古典社会的协调秩序。所以文艺复兴建筑通常是具有秩序和比例的美感，拥有严谨的立面图和平面结构的建筑。<br>
 <img src="https://liuzhengjieis.github.io//post-images/1578153871543.PNG" alt="来自http://www.archidict.com/en/" loading="lazy"></p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[【毛概】“三个代表”重要思想]]></title>
-        <id>https://liuzhengjieis.github.io/post/mao-gai-san-ge-dai-biao-chong-yao-si-xiang</id>
-        <link href="https://liuzhengjieis.github.io/post/mao-gai-san-ge-dai-biao-chong-yao-si-xiang">
-        </link>
-        <updated>2020-01-02T15:40:06.000Z</updated>
-        <summary type="html"><![CDATA[<p>“三个代表”重要思想</p>
-<p>“三个代表”重要思想是中国特色社会主义理论中的其中一个理论</p>
-]]></summary>
-        <content type="html"><![CDATA[<p>“三个代表”重要思想</p>
-<p>“三个代表”重要思想是中国特色社会主义理论中的其中一个理论</p>
 ]]></content>
     </entry>
 </feed>
