@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://liuzhengjieis.github.io/</id>
     <title>😂学习，生活手记</title>
-    <updated>2020-02-19T01:53:59.627Z</updated>
+    <updated>2020-02-22T21:45:07.550Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://liuzhengjieis.github.io/"/>
     <link rel="self" href="https://liuzhengjieis.github.io/atom.xml"/>
@@ -10,6 +10,13 @@
     <logo>https://liuzhengjieis.github.io/images/avatar.png</logo>
     <icon>https://liuzhengjieis.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, 😂学习，生活手记</rights>
+    <entry>
+        <title type="html"><![CDATA[邓小平理论]]></title>
+        <id>https://liuzhengjieis.github.io/post/deng-xiao-ping-li-lun</id>
+        <link href="https://liuzhengjieis.github.io/post/deng-xiao-ping-li-lun">
+        </link>
+        <updated>2020-02-22T19:03:25.000Z</updated>
+    </entry>
     <entry>
         <title type="html"><![CDATA[社会主义建设初步探索]]></title>
         <id>https://liuzhengjieis.github.io/post/she-hui-zhu-yi-jian-she-chu-bu-tan-suo</id>
@@ -109,19 +116,6 @@
         <content type="html"><![CDATA[<p>黑格尔说过：“艺术类型不过是内容和形象之间的各种不同的关系。”是的，艺术是一个错综复杂现象，既有精神性的产品，也有包括精神与物质相结合的产品，所以艺术必然会有纯艺术和实用艺术。<br>
 那么结合艺术的起源和本质，到底纯艺术或者实用艺术是如何形成和发展的呢？<br>
 <img src="https://m.therafchannel.com/www/plus/misc/images/codex-atlanticus-02.jpg" alt="" loading="lazy"></p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[文艺复兴时期——建筑]]></title>
-        <id>https://liuzhengjieis.github.io/post/wengyifuxingjianzhu</id>
-        <link href="https://liuzhengjieis.github.io/post/wengyifuxingjianzhu">
-        </link>
-        <updated>2020-01-04T15:36:27.000Z</updated>
-        <summary type="html"><![CDATA[<p><strong>文艺复兴建筑</strong>是公元14识记在意大利发生的文艺复兴时期兴起的建筑风格，是基于对神权之上的批判和对人文主义的肯定。在这一时期出现了建筑师这个职业，并且通过继承罗马的古典比例美来塑造古典社会的协调秩序。所以文艺复兴建筑通常是具有秩序和比例的美感，拥有严谨的立面图和平面结构的建筑。<br>
-<img src="https://liuzhengjieis.github.io//post-images/1578153871543.PNG" alt="来自http://www.archidict.com/en/" loading="lazy"></p>
-]]></summary>
-        <content type="html"><![CDATA[<p><strong>文艺复兴建筑</strong>是公元14识记在意大利发生的文艺复兴时期兴起的建筑风格，是基于对神权之上的批判和对人文主义的肯定。在这一时期出现了建筑师这个职业，并且通过继承罗马的古典比例美来塑造古典社会的协调秩序。所以文艺复兴建筑通常是具有秩序和比例的美感，拥有严谨的立面图和平面结构的建筑。<br>
-<img src="https://liuzhengjieis.github.io//post-images/1578153871543.PNG" alt="来自http://www.archidict.com/en/" loading="lazy"></p>
 ]]></content>
     </entry>
 </feed>
