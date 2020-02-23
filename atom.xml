@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://liuzhengjieis.github.io/</id>
     <title>😂学习，生活手记</title>
-    <updated>2020-02-22T22:25:35.334Z</updated>
+    <updated>2020-02-23T00:15:20.523Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://liuzhengjieis.github.io/"/>
     <link rel="self" href="https://liuzhengjieis.github.io/atom.xml"/>
@@ -11,11 +11,26 @@
     <icon>https://liuzhengjieis.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, 😂学习，生活手记</rights>
     <entry>
+        <title type="html"><![CDATA[「三个代表」重要思想]]></title>
+        <id>https://liuzhengjieis.github.io/post/san-ge-dai-biao-chong-yao-si-xiang/</id>
+        <link href="https://liuzhengjieis.github.io/post/san-ge-dai-biao-chong-yao-si-xiang/">
+        </link>
+        <updated>2020-02-23T00:13:43.000Z</updated>
+        <summary type="html"><![CDATA[<p>国际局势风云变幻，改革开放和现代化建设波澜壮阔。如何坚持与时俱进，如何大力推进改革开放？在世界社会主义陷入低谷时，如何捍卫社会主义制度？</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>国际局势风云变幻，改革开放和现代化建设波澜壮阔。如何坚持与时俱进，如何大力推进改革开放？在世界社会主义陷入低谷时，如何捍卫社会主义制度？</p>
+]]></content>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[邓小平理论]]></title>
         <id>https://liuzhengjieis.github.io/post/deng-xiao-ping-li-lun/</id>
         <link href="https://liuzhengjieis.github.io/post/deng-xiao-ping-li-lun/">
         </link>
         <updated>2020-02-22T19:03:25.000Z</updated>
+        <summary type="html"><![CDATA[<p>立时代潮头，开革命先河。以邓小平为代表的中国共产党人开辟了中国特色社会主义道路，创立了邓小平理论。改革开放如何改变中国又如何改变世界？新时代党和国家全部理论和实践的主题是什么？</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>立时代潮头，开革命先河。以邓小平为代表的中国共产党人开辟了中国特色社会主义道路，创立了邓小平理论。改革开放如何改变中国又如何改变世界？新时代党和国家全部理论和实践的主题是什么？</p>
+]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[社会主义建设初步探索]]></title>
@@ -101,21 +116,6 @@
         <summary type="html"><![CDATA[<p>人类对形态的感知和掌握经历了数十万年乃至上百万年的历程，人类如今发达的造型能力和对形态的认识正式上百万年来打制石器的劳作、造物所获得的必然结果和回报。可以说，从造型到造器，人类完成了一个个飞跃，新的设计、新的造物正是建立在这一个基础上的。</p>
 ]]></summary>
         <content type="html"><![CDATA[<p>人类对形态的感知和掌握经历了数十万年乃至上百万年的历程，人类如今发达的造型能力和对形态的认识正式上百万年来打制石器的劳作、造物所获得的必然结果和回报。可以说，从造型到造器，人类完成了一个个飞跃，新的设计、新的造物正是建立在这一个基础上的。</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[艺术与设计，第一章：“纯艺术”与“实用艺术”]]></title>
-        <id>https://liuzhengjieis.github.io/post/yishuyusheji1/</id>
-        <link href="https://liuzhengjieis.github.io/post/yishuyusheji1/">
-        </link>
-        <updated>2020-01-07T11:01:21.000Z</updated>
-        <summary type="html"><![CDATA[<p>黑格尔说过：“艺术类型不过是内容和形象之间的各种不同的关系。”是的，艺术是一个错综复杂现象，既有精神性的产品，也有包括精神与物质相结合的产品，所以艺术必然会有纯艺术和实用艺术。<br>
-那么结合艺术的起源和本质，到底纯艺术或者实用艺术是如何形成和发展的呢？<br>
-<img src="https://m.therafchannel.com/www/plus/misc/images/codex-atlanticus-02.jpg" alt="" loading="lazy"></p>
-]]></summary>
-        <content type="html"><![CDATA[<p>黑格尔说过：“艺术类型不过是内容和形象之间的各种不同的关系。”是的，艺术是一个错综复杂现象，既有精神性的产品，也有包括精神与物质相结合的产品，所以艺术必然会有纯艺术和实用艺术。<br>
-那么结合艺术的起源和本质，到底纯艺术或者实用艺术是如何形成和发展的呢？<br>
-<img src="https://m.therafchannel.com/www/plus/misc/images/codex-atlanticus-02.jpg" alt="" loading="lazy"></p>
 ]]></content>
     </entry>
 </feed>
