@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://liuzhengjieis.github.io/</id>
     <title>😂学习，生活手记</title>
-    <updated>2020-02-23T00:26:12.132Z</updated>
+    <updated>2020-03-03T13:52:05.697Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://liuzhengjieis.github.io/"/>
     <link rel="self" href="https://liuzhengjieis.github.io/atom.xml"/>
@@ -10,6 +10,17 @@
     <logo>https://liuzhengjieis.github.io/images/avatar.png</logo>
     <icon>https://liuzhengjieis.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, 😂学习，生活手记</rights>
+    <entry>
+        <title type="html"><![CDATA[艺术创作]]></title>
+        <id>https://liuzhengjieis.github.io/post/yi-zhu-chuang-zuo/</id>
+        <link href="https://liuzhengjieis.github.io/post/yi-zhu-chuang-zuo/">
+        </link>
+        <updated>2020-03-03T13:41:38.000Z</updated>
+        <summary type="html"><![CDATA[<p>从艺术系统的三个环节来看，艺术创作是第一个环节，其创作的过程可以看作是审美价值的“生产阶段”，它是创作主体与客体之间相互作用的产物。</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>从艺术系统的三个环节来看，艺术创作是第一个环节，其创作的过程可以看作是审美价值的“生产阶段”，它是创作主体与客体之间相互作用的产物。</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[「三个代表」重要思想]]></title>
         <id>https://liuzhengjieis.github.io/post/san-ge-dai-biao-chong-yao-si-xiang/</id>
@@ -105,17 +116,6 @@
 ]]></summary>
         <content type="html"><![CDATA[<p> 艺术创作活动是人类特有的一种高级的精神活动和实践活动。它是指艺术家在创作欲望的推动下，运用一定的艺术语言和艺术手法，将自己的情感思想和审美意识物态化为具体的，生动的，可感的艺术形象。<br>
 艺术创作的过程千变万化、丰富多样。但从总体上看，艺术创作可以相对地分为<strong>艺术体验，艺术构思，艺术传达</strong>三个部分。</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[艺术与设计，第二章：造物与造型]]></title>
-        <id>https://liuzhengjieis.github.io/post/yi-zhu-yu-she-ji-di-er-zhang-zao-xing-yu-xing-tai/</id>
-        <link href="https://liuzhengjieis.github.io/post/yi-zhu-yu-she-ji-di-er-zhang-zao-xing-yu-xing-tai/">
-        </link>
-        <updated>2020-01-28T15:17:15.000Z</updated>
-        <summary type="html"><![CDATA[<p>人类对形态的感知和掌握经历了数十万年乃至上百万年的历程，人类如今发达的造型能力和对形态的认识正式上百万年来打制石器的劳作、造物所获得的必然结果和回报。可以说，从造型到造器，人类完成了一个个飞跃，新的设计、新的造物正是建立在这一个基础上的。</p>
-]]></summary>
-        <content type="html"><![CDATA[<p>人类对形态的感知和掌握经历了数十万年乃至上百万年的历程，人类如今发达的造型能力和对形态的认识正式上百万年来打制石器的劳作、造物所获得的必然结果和回报。可以说，从造型到造器，人类完成了一个个飞跃，新的设计、新的造物正是建立在这一个基础上的。</p>
 ]]></content>
     </entry>
 </feed>
